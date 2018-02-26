@@ -29,6 +29,15 @@
         <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/ads-6.3.1_e4161662dae6268c269a62759747c7889600215c/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/libs/crittercism_v3_0_11_sdkonly.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e30c21ae491d780622ecaee2752969be98140c3">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/pre-dexed/release/crittercism_v3_0_11_sdkonly_28a59bb875e13f8bd3763a8cf3f5581f9b9d39be.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
@@ -63,6 +72,15 @@
         revision="26.0.0"
         sha1="af64527b748983a75de9c0756e9768b56b240a49">
         <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f43fabe051d9192d7487434a10ea51c4f573bc84/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2f1474512136315c83740865c1cbe7be1cb6fe3a">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/pre-dexed/release/classes_ae8bcf07c671f08f98c9be78423cf19fea8e90d9.jar" />
     </item>
     <item
         is-multidex="true"
