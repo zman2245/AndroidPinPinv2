@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="flurry_api_key">ZTWQH5VH2SN2CQT4GZTV</string>
+    
+    <string name="flurry_event_mode_learn">mode_learn</string>
+    <string name="flurry_event_mode_quiz">mode_quiz</string>
+    <string name="flurry_event_mode_reference">mode_reference</string>
+    <string name="flurry_event_mode_store">mode_store</string>
+    <string name="flurry_event_quiz_question">quiz_question</string>
+    <string name="flurry_event_quiz_result">quiz_result</string>
+    <string name="flurry_event_quiz_start">quiz_start</string>
+    <string name="flurry_event_reference_chart">reference_chart</string>
+    <string name="flurry_event_reference_chart_listen">reference_chart_listen</string>
+    <string name="flurry_event_reference_chart_practice">reference_chart_practice</string>
+    <string name="flurry_event_reference_list">reference_list</string>
+    <string name="flurry_event_reference_list_listen">reference_list_listen</string>
+    <string name="flurry_event_reference_list_practice">reference_list_practice</string>
+    <string name="flurry_event_reference_tone">reference_tone</string>
+    <string name="flurry_event_section_complete">section_complete</string>
+    <string name="flurry_event_section_intro">section_intro</string>
+    <string name="flurry_event_sound_practice">sound_practice</string>
+    <string name="flurry_event_sound_practice_listen">sound_practice_listen</string>
+    <string name="flurry_event_sound_practice_playback">sound_practice_playback</string>
+    <string name="flurry_event_sound_practice_record">sound_practice_record</string>
+    <string name="flurry_event_sound_practice_tone">sound_practice_tone</string>
+    <string name="flurry_event_store">store</string>
+    <string name="flurry_event_store_purchase_complete">store_purchase_complete</string>
+    <string name="flurry_event_store_purchase_fail">store_purchase_fail</string>
+    <string name="flurry_event_store_purchase_start">store_purchase_start</string>
+    <string name="flurry_event_store_restore">store_restore</string>
+    <string name="flurry_event_upgrade_banner">upgrade_banner</string>
+    <string name="flurry_event_ad_clicked">ad_clicked</string>
+    <string name="flurry_event_ad_rendered">ad_rendered</string>
+    
+</resources>

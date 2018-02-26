@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- "Study This Section" -->
+    <string name="learn_study_title">Study this section</string>
+    <string name="learn_study_body">Practice recognizing and saying each pinyin sound in this section to build proficiency in the language.</string>
+    <string name="learn_study_start_button">Start</string>
+    
+    <!-- "Intro Complete Section" -->
+    <string name="learn_intro_complete_title">That\'s it!</string>
+    <string name="learn_intro_complete_body">Tap the home button in the upper left corner to finish the introduction and start learning.</string>
+    <string name="learn_intro_complete_button">Complete</string>
+
+    <!-- Learn List Content -->
+    <string-array name="strings_learn_list_titles">
+        <item>Introduction</item>
+        <item>Getting started</item>
+        <item>More simple sounds</item>
+        <item>Adding o finals</item>
+        <item>Challenging initials I</item>
+        <item>Challenging initials II</item>
+        <item>Wrapping up a and o</item>
+        <item>Adding e to the mix</item>
+        <item>Effort with e</item>
+        <item>Wrapping up e</item>
+        <item>Introducing i</item>
+        <item>Expanding i</item>
+        <item>Exceptions with i</item>
+        <item>Challenging initials III</item>
+        <item>The u final</item>
+        <item>A big step with u</item>
+        <item>Concluding u</item>
+        <item>Last but not least</item>
+    </string-array>
+    
+    <!-- Learn section ids: these must never change but may be re-ordered, used by progress factory -->
+    <string-array name="learn_ids">
+        <item>Introduction</item>
+        <item>Getting started</item>
+        <item>More simple sounds</item>
+        <item>Adding o finals</item>
+        <item>Challenging initials I</item>
+        <item>Challenging initials II</item>
+        <item>Wrapping up a and o</item>
+        <item>Adding e to the mix</item>
+        <item>Effort with e</item>
+        <item>Wrapping up e</item>
+        <item>Introducing i</item>
+        <item>Expanding i</item>
+        <item>Exceptions with i</item>
+        <item>Challenging initials III</item>
+        <item>The u final</item>
+        <item>A big step with u</item>
+        <item>Concluding u</item>
+        <item>Last but not least</item>
+    </string-array>
+
+    <string-array name="strings_learn_list_bodies">
+        <item>Learning Pinyin with Pin Pin</item>
+        <item>b, p, m, f with a</item>
+        <item>d, t, n, l with a</item>
+        <item>b, p, m, f, d, t, n, l with o</item>
+        <item>s, c, z with a and o</item>
+        <item>sh, ch, zh, r with a and o</item>
+        <item>g, k, h with a and o</item>
+        <item>b, p, m, f, d, t, n, l with e</item>
+        <item>s, c, z, sh, ch, zh, r with e</item>
+        <item>g, k, h with e</item>
+        <item>b, p, m, d, t, n, l with i</item>
+        <item>b, p, m, d, t, n, l with i</item>
+        <item>s, c, z, sh, ch, zh, r with i</item>
+        <item>x, q, j with i</item>
+        <item>b, p, m, f, d, t, n, l with u</item>
+        <item>s, c, z, sh, ch, zh, r with u</item>
+        <item>g, k, h with u</item>
+        <item>n, l, x, q, and j with &#252;</item> <!-- u with umlaut -->
+    </string-array>
+    
+    <!-- Content for each section, top-level name should match the list content above -->
+    
+    <!-- Introduction -->
+    <string name="learn_intro_title_1">Introducing Pin Pin</string>
+    <string name="learn_intro_title_2">About Pinyin</string>
+    <string name="learn_intro_title_3">Learn</string>
+    <string name="learn_intro_title_4">Reference</string>
+    <string name="learn_intro_title_5">That\'s it!</string>
+    <string name="learn_intro_complete_btn">Complete</string>
+    
+    <string-array name="strings_learn_introduction_toptext">
+        <item>Pin Pin is designed to help build your foundation in Mandarin.</item>
+        <item>Pinyin is the most widely-used system for describing the sounds of Mandarin with Latin-based characters.</item>
+        <item>Pin Pin breaks the pinyin table into small, easily-digestable sections of similar/related sounds.</item>
+        <item>Use the tabs above to flip to the Reference mode at any time.</item>
+    </string-array>
+
+    <string-array name="strings_learn_introduction_bottomtext">
+        <item>By first learning the sounds of Mandarin, your speaking and listening skills will grow at an accelerated rate.</item>
+        <item>It is also a solid first step toward learning Mandarin Chinese.</item>
+        <item>Step through each section and master every sound in the language!</item>
+        <item>Also, use the tabs to flip back and continue learning one section at a time when you\'re ready.</item>
+    </string-array>
+
+    <array name="strings_learn_introduction">
+        <item name="toptext">@array/strings_learn_introduction_toptext</item>
+        <item name="bottomtext">@array/strings_learn_introduction_bottomtext</item>
+    </array>
+    
+    <!-- Getting Started -->
+    <string-array name="strings_learn_getting_started_toptext">
+        <item>Pinyin sounds are composed of an \"initial\" and a \"final.\" Most finals are full pinyin sounds in themselves such as the most basic final, \"a.\" The \"a\" final is pronounced like the \"a\" in the English word \"father.\"</item>
+        <item>The \"b,\" \"p,\" \"m,\" and \"f\" initials are pronounced like their English counterparts.</item>
+    </string-array>
+    
+    <string-array name="strings_learn_getting_started_bottomtext">
+        <item>Tap the pinyin to hear how it is pronounced.</item>
+        <item>Note that some initial-final combinations do not exist in Mandarin.</item>
+    </string-array>
+
+    <string-array name="learn_getting_started_btns_page1_row1">
+        <item>&#x101;</item>
+        <item>&#x101;i</item>
+        <item>&#x101;o</item>
+        <item>&#x101;n</item>
+        <item>&#x101;ng</item>
+    </string-array>
+    <array name="learn_getting_started_btns_page1">
+        <item>@array/learn_getting_started_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_getting_started_btns_page2_row1">
+        <item>b&#x101;</item>
+        <item>b&#x101;i</item>
+        <item>b&#x101;o</item>
+        <item>b&#x101;n</item>
+        <item>b&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_getting_started_btns_page2_row2">
+        <item>p&#x101;</item>
+        <item>p&#x101;i</item>
+        <item>p&#x101;o</item>
+        <item>p&#x101;n</item>
+        <item>p&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_getting_started_btns_page2_row3">
+        <item>m&#x101;</item>
+        <item>m&#x101;i</item>
+        <item>m&#x101;o</item>
+        <item>m&#x101;n</item>
+        <item>m&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_getting_started_btns_page2_row4">
+        <item>f&#x101;</item>
+        <item></item>
+        <item></item>
+        <item>f&#x101;n</item>
+        <item>f&#x101;ng</item>
+    </string-array>
+    <array name="learn_getting_started_btns_page2">
+        <item>@array/learn_getting_started_btns_page2_row1</item>
+        <item>@array/learn_getting_started_btns_page2_row2</item>
+        <item>@array/learn_getting_started_btns_page2_row3</item>
+        <item>@array/learn_getting_started_btns_page2_row4</item>
+    </array>
+    <array name="learn_getting_started_btns">
+        <item>@array/learn_getting_started_btns_page1</item>
+        <item>@array/learn_getting_started_btns_page2</item>
+    </array>
+
+    <array name="strings_learn_getting_started">
+        <item name="toptext">@array/strings_learn_getting_started_toptext</item>
+        <item name="bottomtext">@array/strings_learn_getting_started_bottomtext</item>
+        <item name="btns">@array/learn_getting_started_btns</item>
+    </array>
+
+    <!-- More simple sounds -->
+    <string-array name="learn_more_simple_sounds_toptext">
+        <item>The \"d\", \"t\", \"n\" and \"l\" initials are pronounced as they would be in English.</item>
+    </string-array>
+    
+    <string-array name="learn_more_simple_sounds_bottomtext">
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_simple_sounds_btns_page1_row1">
+        <item>d&#x101;</item>
+        <item>d&#x101;i</item>
+        <item>d&#x101;o</item>
+        <item>d&#x101;n</item>
+        <item>d&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_simple_sounds_btns_page1_row2">
+        <item>t&#x101;</item>
+        <item>t&#x101;i</item>
+        <item>t&#x101;o</item>
+        <item>t&#x101;n</item>
+        <item>t&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_simple_sounds_btns_page1_row3">
+        <item>n&#x101;</item>
+        <item>n&#x101;i</item>
+        <item>n&#x101;o</item>
+        <item>n&#x101;n</item>
+        <item>n&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_simple_sounds_btns_page1_row4">
+        <item>l&#x101;</item>
+        <item>l&#x101;i</item>
+        <item>l&#x101;o</item>
+        <item>l&#x101;n</item>
+        <item>l&#x101;ng</item>
+    </string-array>
+    <array name="learn_simple_sounds_btns_page1">
+        <item>@array/learn_simple_sounds_btns_page1_row1</item>
+        <item>@array/learn_simple_sounds_btns_page1_row2</item>
+        <item>@array/learn_simple_sounds_btns_page1_row3</item>
+        <item>@array/learn_simple_sounds_btns_page1_row4</item>
+    </array>
+    <array name="learn_simple_sounds_btns">
+        <item>@array/learn_simple_sounds_btns_page1</item>
+    </array>
+    
+    <array name="learn_more_simple_sounds">
+        <item name="toptext">@array/learn_more_simple_sounds_toptext</item>
+        <item name="bottomtext">@array/learn_more_simple_sounds_bottomtext</item>
+        <item name="btns">@array/learn_simple_sounds_btns</item>
+    </array>
+    
+    <!-- Adding o finals -->
+    <string-array name="learn_adding_o_finals_toptext">
+        <item>The Mandarin \"o\" final by itself only combines with the \"b\", \"p\", \"m\" and \"f\" initials.</item>
+        <item>The \"o\" in the \"ong\" final is very similar to the English \"oh\" sound. That is, \"long\" is pronounced \"l-oh-ng\", not \"l-ah-ng\".</item>
+        <item>The \"ou\" final is very similar to the English \"oh\" sound, except one\'s lips start to round towards the end. This creates a slightly more exaggerated \"oo\" sound at the end.</item>
+    </string-array>
+    
+    <string-array name="learn_adding_o_finals_bottomtext">
+        <item>While not completely foreign, this sound is very different from any sound in English.</item>
+        <item>The \"ong\" final is not a valid pinyin sound unless combined with an initial. It also does not combine with the \"b\", \"p\", \"m\" and \"f\" initials.</item>
+        <item>This final combines with all of the initials we\'ve covered so far except for the \"o\" final.</item>
+    </string-array>
+
+    <string-array name="learn_adding_o_finals_btns_page1_row1">
+        <item>&#x14D;</item>
+        <item>b&#x14D;</item>
+        <item>p&#x14D;</item>
+        <item>m&#x14D;</item>
+        <item>f&#x14D;</item>
+    </string-array>
+    <array name="learn_adding_o_finals_btns_page1">
+        <item>@array/learn_adding_o_finals_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_adding_o_finals_btns_page2_row1">
+        <item>d&#x14D;ng</item>
+        <item>t&#x14D;ng</item>
+        <item>n&#x14D;ng</item>
+        <item>l&#x14D;ng</item>
+    </string-array>
+    <array name="learn_adding_o_finals_btns_page2">
+        <item>@array/learn_adding_o_finals_btns_page2_row1</item>
+    </array>
+    <string-array name="learn_adding_o_finals_btns_page3_row1">
+        <item>&#x14D;u</item>
+        <item>p&#x14D;u</item>
+        <item>m&#x14D;u</item>
+        <item>f&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_adding_o_finals_btns_page3_row2">
+        <item>d&#x14D;u</item>
+        <item>t&#x14D;u</item>
+        <item>n&#x14D;u</item>
+        <item>l&#x14D;u</item>
+    </string-array>
+    <array name="learn_adding_o_finals_btns_page3">
+        <item>@array/learn_adding_o_finals_btns_page3_row1</item>
+        <item>@array/learn_adding_o_finals_btns_page3_row2</item>
+    </array>
+    <array name="learn_adding_o_finals_btns">
+        <item>@array/learn_adding_o_finals_btns_page1</item>
+        <item>@array/learn_adding_o_finals_btns_page2</item>
+        <item>@array/learn_adding_o_finals_btns_page3</item>
+    </array>
+
+    <array name="learn_adding_o_finals">
+        <item name="toptext">@array/learn_adding_o_finals_toptext</item>
+        <item name="bottomtext">@array/learn_adding_o_finals_bottomtext</item>
+        <item name="btns">@array/learn_adding_o_finals_btns</item>
+    </array>
+
+    <!-- Challenging initials I -->
+    <string-array name="learn_challenging_initials_i_toptext">
+        <item>The \"s\" initial is pronounced just like the English \"s\" with the tip of the tongue placed against the back of the bottom front teeth.</item>
+        <item>The \"c\" initial is pronounced like \"ts\".</item>
+        <item>At first, the \"z\" initial might sound similar to the \"c\", but they are actually quite different. While the \"c\" can be thought of as a \"ts\" sound, the \"z\" is more like a \"dz\" sound.</item>
+        <item>Before jumping in and practicing each sound, take a moment to contrast some of the initials side-by-side, expecially the \"z\" and \"c\" initials.</item>
+    </string-array>
+    
+    <string-array name="learn_challenging_initials_i_bottomtext">
+        <item></item>
+        <item>While no words in English start with this sound, several words do end with this sound. For example, \"hits\", \"fits\" and \"bits\" all end with the Mandarin \"c\" sound.</item>
+        <item>This sound also does not occur at the beginning of any English sounds, but it does occur at the end of words like \"bids\", \"kids\" and \"lids\".</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_challenging_initials_i_btns_page1_row1">
+        <item>s&#x101;</item>
+        <item>s&#x101;i</item>
+        <item>s&#x101;o</item>
+        <item>s&#x101;n</item>
+        <item>s&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_i_btns_page1_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s&#x14D;ng</item>
+        <item>s&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_i_btns_page1">
+        <item>@array/learn_challenging_initials_i_btns_page1_row1</item>
+        <item>@array/learn_challenging_initials_i_btns_page1_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_i_btns_page2_row1">
+        <item>c&#x101;</item>
+        <item>c&#x101;i</item>
+        <item>c&#x101;o</item>
+        <item>c&#x101;n</item>
+        <item>c&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_i_btns_page2_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>c&#x14D;ng</item>
+        <item>c&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_i_btns_page2">
+        <item>@array/learn_challenging_initials_i_btns_page2_row1</item>
+        <item>@array/learn_challenging_initials_i_btns_page2_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_i_btns_page3_row1">
+        <item>z&#x101;</item>
+        <item>z&#x101;i</item>
+        <item>z&#x101;o</item>
+        <item>z&#x101;n</item>
+        <item>z&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_i_btns_page3_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>z&#x14D;ng</item>
+        <item>z&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_i_btns_page3">
+        <item>@array/learn_challenging_initials_i_btns_page3_row1</item>
+        <item>@array/learn_challenging_initials_i_btns_page3_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_i_btns_page4_row1">
+        <item>s&#x101;</item>
+        <item>s&#x101;i</item>
+        <item>s&#x101;o</item>
+        <item>s&#x101;ng</item>
+        <item>s&#x14D;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_i_btns_page4_row2">
+        <item>c&#x101;</item>
+        <item>c&#x101;i</item>
+        <item>c&#x101;o</item>
+        <item>c&#x101;ng</item>
+        <item>c&#x14D;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_i_btns_page4_row3">
+        <item>z&#x101;</item>
+        <item>z&#x101;i</item>
+        <item>z&#x101;o</item>
+        <item>z&#x101;ng</item>
+        <item>z&#x14D;ng</item>
+    </string-array>
+    <array name="learn_challenging_initials_i_btns_page4">
+        <item>@array/learn_challenging_initials_i_btns_page4_row1</item>
+        <item>@array/learn_challenging_initials_i_btns_page4_row2</item>
+        <item>@array/learn_challenging_initials_i_btns_page4_row3</item>
+    </array>
+    <array name="learn_challenging_initials_i_btns">
+        <item>@array/learn_challenging_initials_i_btns_page1</item>
+        <item>@array/learn_challenging_initials_i_btns_page2</item>
+        <item>@array/learn_challenging_initials_i_btns_page3</item>
+        <item>@array/learn_challenging_initials_i_btns_page4</item>
+    </array>
+
+    <array name="learn_challenging_initials_i">
+        <item name="toptext">@array/learn_challenging_initials_i_toptext</item>
+        <item name="bottomtext">@array/learn_challenging_initials_i_bottomtext</item>
+        <item name="btns">@array/learn_challenging_initials_i_btns</item>
+    </array>
+    
+    <!-- Challenging initials II -->
+    <string-array name="learn_challenging_initials_ii_toptext">
+        <item>The Mandarin \"sh\" and English \"sh\" sounds are very similar, except the tongue should be slightly curled upward against the top plate of the mouth when speaking the Mandarin \"sh\" initial.</item>
+        <item>By beginning with the same tongue placement as the \"sh\" initial but instead speaking a \"ch\" sound, you will produce the Mandarin \"ch\" initial</item>
+        <item>Another initial that starts with the same tongue position is the \"zh\" initial. Simply curl the tongue up just behind the top teeth and speak an English \"j\" sound to reproduce the Mandarin \"zh\".</item>
+        <item>At first, the Mandarin \"r\" can seem quite foreign, but it does exist in some English words. First, say the English word \"leisure\" a few times. Notice that right in the middle of the word the tongue is curled up like the \"sh\", \"ch\" and \"zh\" sounds. This buzzing-like sound in the middle of \"leisure\" is like the \"r\" initial.</item>
+        <item>Getting proficient with these initials will make you sound like a pro, so take a minute to review some of them.</item>
+    </string-array>
+    
+    <string-array name="learn_challenging_initials_ii_bottomtext">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_challenging_initials_ii_btns_page1_row1">
+        <item>sh&#x101;</item>
+        <item>sh&#x101;i</item>
+        <item>sh&#x101;o</item>
+        <item>sh&#x101;n</item>
+        <item>sh&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page1_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>sh&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_ii_btns_page1">
+        <item>@array/learn_challenging_initials_ii_btns_page1_row1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page1_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_ii_btns_page2_row1">
+        <item>ch&#x101;</item>
+        <item>ch&#x101;i</item>
+        <item>ch&#x101;o</item>
+        <item>ch&#x101;n</item>
+        <item>ch&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page2_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>ch&#x14D;ng</item>
+        <item>ch&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_ii_btns_page2">
+        <item>@array/learn_challenging_initials_ii_btns_page2_row1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page2_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_ii_btns_page3_row1">
+        <item>zh&#x101;</item>
+        <item>zh&#x101;i</item>
+        <item>zh&#x101;o</item>
+        <item>zh&#x101;n</item>
+        <item>zh&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page3_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>zh&#x14D;ng</item>
+        <item>zh&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_ii_btns_page3">
+        <item>@array/learn_challenging_initials_ii_btns_page3_row1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page3_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_ii_btns_page4_row1">
+        <item></item>
+        <item></item>
+        <item>r&#x101;o</item>
+        <item>r&#x101;n</item>
+        <item>r&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page4_row2">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>r&#x14D;ng</item>
+        <item>r&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_ii_btns_page4">
+        <item>@array/learn_challenging_initials_ii_btns_page4_row1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page4_row2</item>
+    </array>
+    <string-array name="learn_challenging_initials_ii_btns_page5_row1">
+        <item>sh&#x101;</item>
+        <item>sh&#x101;o</item>
+        <item>sh&#x101;n</item>
+        <item>sh&#x101;ng</item>
+        <item>sh&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page5_row2">
+        <item>ch&#x101;</item>
+        <item>ch&#x101;o</item>
+        <item>ch&#x101;n</item>
+        <item>ch&#x101;ng</item>
+        <item>ch&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page5_row3">
+        <item>zh&#x101;</item>
+        <item>zh&#x101;o</item>
+        <item>zh&#x101;n</item>
+        <item>zh&#x101;ng</item>
+        <item>zh&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_ii_btns_page5_row4">
+        <item></item>
+        <item>r&#x101;o</item>
+        <item>r&#x101;n</item>
+        <item>r&#x101;ng</item>
+        <item>r&#x14D;u</item>
+    </string-array>
+    <array name="learn_challenging_initials_ii_btns_page5">
+        <item>@array/learn_challenging_initials_ii_btns_page5_row1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page5_row2</item>
+        <item>@array/learn_challenging_initials_ii_btns_page5_row3</item>
+        <item>@array/learn_challenging_initials_ii_btns_page5_row4</item>
+    </array>
+    <array name="learn_challenging_initials_ii_btns">
+        <item>@array/learn_challenging_initials_ii_btns_page1</item>
+        <item>@array/learn_challenging_initials_ii_btns_page2</item>
+        <item>@array/learn_challenging_initials_ii_btns_page3</item>
+        <item>@array/learn_challenging_initials_ii_btns_page4</item>
+        <item>@array/learn_challenging_initials_ii_btns_page5</item>
+    </array>
+    
+    <array name="learn_challenging_initials_ii">
+        <item name="toptext">@array/learn_challenging_initials_ii_toptext</item>
+        <item name="bottomtext">@array/learn_challenging_initials_ii_bottomtext</item>
+        <item name="btns">@array/learn_challenging_initials_ii_btns</item>
+    </array>
+        
+    <!-- Wrapping up a and o -->
+    <string-array name="learn_wrapping_up_a_and_o_toptext">
+        <item>The Mandarin \"g\", \"k\" and \"h\" initials are not foreign to English speakers; however, because Mandarin speakers generally put less emphasis on initials, it can be easy to confuse the \"g\" and \"k\" sounds.</item>
+        <item>These initials combine with all of the \"a\" finals as well as with the \"ong\" and \"ou\" finals.</item>
+    </string-array>
+    
+    <string-array name="learn_wrapping_up_a_and_o_bottomtext">
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_wrapping_up_a_and_o_btns_page1_row1">
+        <item>g&#x101;</item>
+        <item>g&#x101;i</item>
+        <item>g&#x101;o</item>
+        <item>g&#x101;n</item>
+        <item>g&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_a_and_o_btns_page1_row2">
+        <item>k&#x101;</item>
+        <item>k&#x101;i</item>
+        <item>k&#x101;o</item>
+        <item>k&#x101;n</item>
+        <item>k&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_a_and_o_btns_page1_row3">
+        <item>h&#x101;</item>
+        <item>h&#x101;i</item>
+        <item>h&#x101;o</item>
+        <item>h&#x101;n</item>
+        <item>h&#x101;ng</item>
+    </string-array>
+    <array name="learn_wrapping_up_a_and_o_btns_page1">
+        <item>@array/learn_wrapping_up_a_and_o_btns_page1_row1</item>
+        <item>@array/learn_wrapping_up_a_and_o_btns_page1_row2</item>
+        <item>@array/learn_wrapping_up_a_and_o_btns_page1_row3</item>
+    </array>
+    <string-array name="learn_wrapping_up_a_and_o_btns_page2_row1">
+        <item>g&#x14D;ng</item>
+        <item>g&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_a_and_o_btns_page2_row2">
+        <item>k&#x14D;ng</item>
+        <item>k&#x14D;u</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_a_and_o_btns_page2_row3">
+        <item>h&#x14D;ng</item>
+        <item>h&#x14D;u</item>
+    </string-array>
+    <array name="learn_wrapping_up_a_and_o_btns_page2">
+        <item>@array/learn_wrapping_up_a_and_o_btns_page2_row1</item>
+        <item>@array/learn_wrapping_up_a_and_o_btns_page2_row2</item>
+        <item>@array/learn_wrapping_up_a_and_o_btns_page2_row3</item>
+    </array>
+    <array name="learn_wrapping_up_a_and_o_btns">
+        <item>@array/learn_wrapping_up_a_and_o_btns_page1</item>
+        <item>@array/learn_wrapping_up_a_and_o_btns_page2</item>
+    </array>
+
+    <array name="learn_wrapping_up_a_and_o">
+        <item name="toptext">@array/learn_wrapping_up_a_and_o_toptext</item>
+        <item name="bottomtext">@array/learn_wrapping_up_a_and_o_bottomtext</item>
+        <item name="btns">@array/learn_wrapping_up_a_and_o_btns</item>
+    </array>
+    
+    <!-- Adding e to the mix -->
+    <string-array name="learn_adding_e_to_the_mix_toptext">
+        <item>It sounds funny, but the \"e\" final sounds something like the noise someone might make when seeing something they really don\'t like. Or perhaps closer to the sound a person might make when getting hit in the stomach. The pronunciation is similar in the \"en\" and \"eng\" finals as well. However, the \"er\" final is more similar to the English word \"are\".</item>
+        <item>While not a sound itself, the \"ei\" final combines with many initials to form pinyin sounds. It is pronounced similar to the English word \"a\".</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_adding_e_to_the_mix_bottomtext">
+        <item></item>
+        <item></item>
+        <item>As you may have noticed, the \"er\" final does not combine with any initials.</item>
+    </string-array>
+
+    <string-array name="learn_adding_e_to_the_mix_btns_page1_row1">
+        <item>&#x113;</item>
+        <item>&#x113;n</item>
+        <item>&#x113;ng</item>
+        <item>&#x113;r</item>
+    </string-array>
+    <array name="learn_adding_e_to_the_mix_btns_page1">
+        <item>@array/learn_adding_e_to_the_mix_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page2_row1">
+        <item>b&#x113;i</item>
+        <item>b&#x113;n</item>
+        <item>b&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page2_row2">
+        <item>p&#x113;i</item>
+        <item>p&#x113;n</item>
+        <item>p&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page2_row3">
+        <item>m&#x113;i</item>
+        <item>m&#x113;n</item>
+        <item>m&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page2_row4">
+        <item>f&#x113;i</item>
+        <item>f&#x113;n</item>
+        <item>f&#x113;ng</item>
+    </string-array>
+    <array name="learn_adding_e_to_the_mix_btns_page2">
+        <item>@array/learn_adding_e_to_the_mix_btns_page2_row1</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page2_row2</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page2_row3</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page2_row4</item>
+    </array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page3_row1">
+        <item>d&#x113;</item>
+        <item>d&#x113;i</item>
+        <item></item>
+        <item>d&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page3_row2">
+        <item>t&#x113;</item>
+        <item></item>
+        <item></item>
+        <item>t&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page3_row3">
+        <item>n&#x113;</item>
+        <item>n&#x113;i</item>
+        <item>n&#x113;n</item>
+        <item>n&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_adding_e_to_the_mix_btns_page3_row4">
+        <item>l&#x113;</item>
+        <item>l&#x113;i</item>
+        <item></item>
+        <item>l&#x113;ng</item>
+    </string-array>
+    <array name="learn_adding_e_to_the_mix_btns_page3">
+        <item>@array/learn_adding_e_to_the_mix_btns_page3_row1</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page3_row2</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page3_row3</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page3_row4</item>
+    </array>
+    <array name="learn_adding_e_to_the_mix_btns">
+        <item>@array/learn_adding_e_to_the_mix_btns_page1</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page2</item>
+        <item>@array/learn_adding_e_to_the_mix_btns_page3</item>
+    </array>
+
+    <array name="learn_adding_e_to_the_mix">
+        <item name="toptext">@array/learn_adding_e_to_the_mix_toptext</item>
+        <item name="bottomtext">@array/learn_adding_e_to_the_mix_bottomtext</item>
+        <item name="btns">@array/learn_adding_e_to_the_mix_btns</item>
+    </array>
+    
+    <!-- Effort with e -->
+    <string-array name="learn_effort_with_e_toptext">
+        <item>Most of the \"e\" finals also combine with the more challenging initials that we covered earlier.</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_effort_with_e_bottomtext">
+        <item></item>
+        <item>Note again that the \"er\" final does not combine with any initials.</item>
+    </string-array>
+
+    <string-array name="learn_effort_with_e_btns_page1_row1">
+        <item>s&#x113;</item>
+        <item></item>
+        <item>s&#x113;n</item>
+        <item>s&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_effort_with_e_btns_page1_row2">
+        <item>c&#x113;</item>
+        <item></item>
+        <item>c&#x113;n</item>
+        <item>c&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_effort_with_e_btns_page1_row3">
+        <item>z&#x113;</item>
+        <item>z&#x113;i</item>
+        <item>z&#x113;n</item>
+        <item>z&#x113;ng</item>
+    </string-array>
+    <array name="learn_effort_with_e_btns_page1">
+        <item>@array/learn_effort_with_e_btns_page1_row1</item>
+        <item>@array/learn_effort_with_e_btns_page1_row2</item>
+        <item>@array/learn_effort_with_e_btns_page1_row3</item>
+    </array>
+    <string-array name="learn_effort_with_e_btns_page2_row1">
+        <item>sh&#x113;</item>
+        <item>sh&#x113;i</item>
+        <item>sh&#x113;n</item>
+        <item>sh&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_effort_with_e_btns_page2_row2">
+        <item>ch&#x113;</item>
+        <item></item>
+        <item>ch&#x113;n</item>
+        <item>ch&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_effort_with_e_btns_page2_row3">
+        <item>zh&#x113;</item>
+        <item>zh&#x113;i</item>
+        <item>zh&#x113;n</item>
+        <item>zh&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_effort_with_e_btns_page2_row4">
+        <item>r&#x113;</item>
+        <item></item>
+        <item>r&#x113;n</item>
+        <item>r&#x113;ng</item>
+    </string-array>
+    <array name="learn_effort_with_e_btns_page2">
+        <item>@array/learn_effort_with_e_btns_page2_row1</item>
+        <item>@array/learn_effort_with_e_btns_page2_row2</item>
+        <item>@array/learn_effort_with_e_btns_page2_row3</item>
+        <item>@array/learn_effort_with_e_btns_page2_row4</item>
+    </array>
+    <array name="learn_effort_with_e_btns">
+        <item>@array/learn_effort_with_e_btns_page1</item>
+        <item>@array/learn_effort_with_e_btns_page2</item>
+    </array>
+
+    <array name="learn_effort_with_e">
+        <item name="toptext">@array/learn_effort_with_e_toptext</item>
+        <item name="bottomtext">@array/learn_effort_with_e_bottomtext</item>
+        <item name="btns">@array/learn_effort_with_e_btns</item>
+    </array>
+
+    <!-- Wrapping up e -->
+    <string-array name="learn_wrapping_up_e_toptext">
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_wrapping_up_e_bottomtext">
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_wrapping_up_e_btns_page1_row1">
+        <item>g&#x113;</item>
+        <item>g&#x113;i</item>
+        <item>g&#x113;n</item>
+        <item>g&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_e_btns_page1_row2">
+        <item>k&#x113;</item>
+        <item></item>
+        <item>k&#x113;n</item>
+        <item>k&#x113;ng</item>
+    </string-array>
+    <string-array name="learn_wrapping_up_e_btns_page1_row3">
+        <item>h&#x113;</item>
+        <item>h&#x113;i</item>
+        <item>h&#x113;n</item>
+        <item>h&#x113;ng</item>
+    </string-array>
+    <array name="learn_wrapping_up_e_btns_page1">
+        <item>@array/learn_wrapping_up_e_btns_page1_row1</item>
+        <item>@array/learn_wrapping_up_e_btns_page1_row2</item>
+        <item>@array/learn_wrapping_up_e_btns_page1_row3</item>
+    </array>
+    <array name="learn_wrapping_up_e_btns">
+        <item>@array/learn_wrapping_up_e_btns_page1</item>
+    </array>
+
+    <array name="learn_wrapping_up_e">
+        <item name="toptext">@array/learn_wrapping_up_e_toptext</item>
+        <item name="bottomtext">@array/learn_effort_with_e_bottomtext</item>
+        <item name="btns">@array/learn_wrapping_up_e_btns</item>
+    </array>
+
+    <!-- Introducing i -->
+    <string-array name="learn_introducing_i_toptext">
+        <item>In general, the Mandarin \"i\" is pronounced like \"ee\", much like the \"i\" in the English word \"ski\". When written by itself, it is written as a \"y\".</item>
+        <item>The \"iu\" final is actually an abbreviation for \"iou\", so it is pronounced as \"ee-oh\".</item>
+        <item>Here are the rest of the initial combinations with these \"i\" finals.</item>
+    </string-array>
+    
+    <string-array name="learn_introducing_i_bottomtext">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_introducing_i_btns_page1_row1">
+        <item>y&#x12B;</item>
+        <item>y&#x101;</item>
+        <item>y&#x101;o</item>
+        <item>y&#x113;</item>
+        <item>y&#x14D;u</item>
+    </string-array>
+    <array name="learn_introducing_i_btns_page1">
+        <item>@array/learn_introducing_i_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_introducing_i_btns_page2_row1">
+        <item>b&#x12B;</item>
+        <item>bi&#x101;o</item>
+        <item>bi&#x113;</item>
+        <item></item>
+    </string-array>
+    <string-array name="learn_introducing_i_btns_page2_row2">
+        <item>p&#x12B;</item>
+        <item>pi&#x101;o</item>
+        <item>pi&#x113;</item>
+        <item></item>
+    </string-array>
+    <string-array name="learn_introducing_i_btns_page2_row3">
+        <item>m&#x12B;</item>
+        <item>mi&#x101;o</item>
+        <item>mi&#x113;</item>
+        <item>mi&#x16B;</item>
+    </string-array>
+    <array name="learn_introducing_i_btns_page2">
+        <item>@array/learn_introducing_i_btns_page2_row1</item>
+        <item>@array/learn_introducing_i_btns_page2_row2</item>
+        <item>@array/learn_introducing_i_btns_page2_row3</item>
+    </array>
+    <string-array name="learn_introducing_i_btns_page3_row1">
+        <item>d&#x12B;</item>
+        <item></item>
+        <item>di&#x101;o</item>
+        <item>di&#x113;</item>
+        <item>di&#x16B;</item>
+    </string-array>
+    <string-array name="learn_introducing_i_btns_page3_row2">
+        <item>t&#x12B;</item>
+        <item></item>
+        <item>ti&#x101;o</item>
+        <item>ti&#x113;</item>
+        <item></item>
+    </string-array>
+    <string-array name="learn_introducing_i_btns_page3_row3">
+        <item>n&#x12B;</item>
+        <item></item>
+        <item>ni&#x101;o</item>
+        <item>ni&#x113;</item>
+        <item>ni&#x16B;</item>
+    </string-array>
+    <string-array name="learn_introducing_i_btns_page3_row4">
+        <item>l&#x12B;</item>
+        <item>li&#x101;</item>
+        <item>li&#x101;o</item>
+        <item>li&#x113;</item>
+        <item>li&#x16B;</item>
+    </string-array>
+    <array name="learn_introducing_i_btns_page3">
+        <item>@array/learn_introducing_i_btns_page3_row1</item>
+        <item>@array/learn_introducing_i_btns_page3_row2</item>
+        <item>@array/learn_introducing_i_btns_page3_row3</item>
+        <item>@array/learn_introducing_i_btns_page3_row4</item>
+    </array>
+    <array name="learn_introducing_i_btns">
+        <item>@array/learn_introducing_i_btns_page1</item>
+        <item>@array/learn_introducing_i_btns_page2</item>
+        <item>@array/learn_introducing_i_btns_page3</item>
+    </array>
+
+    <array name="learn_introducing_i">
+        <item name="toptext">@array/learn_introducing_i_toptext</item>
+        <item name="bottomtext">@array/learn_introducing_i_bottomtext</item>
+        <item name="btns">@array/learn_introducing_i_btns</item>
+    </array>
+
+    <!-- Expanding i -->
+    <string-array name="learn_expanding_i_toptext">
+        <item>Most of the new \"i\" finals in this section are pronounced as expected. The exception is \"ian\", which is generally pronounced like \"ee-en\".</item>
+        <item>Note again that \"bian\", \"pian\" and \"main\" are pronounced as \"bee-en\", \"pee-en\" and \"mee-en\" and NOT as \"bee-an\", \"pee-an\" and \"mee-an\".</item>
+        <item>Here are the remaining \"i\" final combinations.</item>
+    </string-array>
+    
+    <string-array name="learn_expanding_i_bottomtext">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_expanding_i_btns_page1_row1">
+        <item>y&#x101;n</item>
+        <item>y&#x101;ng</item>
+        <item>y&#x12B;n</item>
+        <item>y&#x12B;ng</item>
+        <item>y&#x14D;ng</item>
+    </string-array>
+    <array name="learn_expanding_i_btns_page1">
+        <item>@array/learn_expanding_i_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_expanding_i_btns_page2_row1">
+        <item>bi&#x101;n</item>
+        <item>b&#x12B;n</item>
+        <item>b&#x12B;ng</item>
+    </string-array>
+    <string-array name="learn_expanding_i_btns_page2_row2">
+        <item>pi&#x101;n</item>
+        <item>p&#x12B;n</item>
+        <item>p&#x12B;ng</item>
+    </string-array>
+    <string-array name="learn_expanding_i_btns_page2_row3">
+        <item>mi&#x101;n</item>
+        <item>m&#x12B;n</item>
+        <item>m&#x12B;ng</item>
+    </string-array>
+    <array name="learn_expanding_i_btns_page2">
+        <item>@array/learn_expanding_i_btns_page2_row1</item>
+        <item>@array/learn_expanding_i_btns_page2_row2</item>
+        <item>@array/learn_expanding_i_btns_page2_row3</item>
+    </array>
+    <string-array name="learn_expanding_i_btns_page3_row1">
+        <item>di&#x101;n</item>
+        <item></item>
+        <item></item>
+        <item>d&#x12B;ng</item>
+    </string-array>
+    <string-array name="learn_expanding_i_btns_page3_row2">
+        <item>ti&#x101;n</item>
+        <item></item>
+        <item></item>
+        <item>t&#x12B;ng</item>
+    </string-array>
+    <string-array name="learn_expanding_i_btns_page3_row3">
+        <item>ni&#x101;n</item>
+        <item>ni&#x101;ng</item>
+        <item>ni&#x101;n</item>
+        <item>n&#x12B;ng</item>
+    </string-array>
+    <string-array name="learn_expanding_i_btns_page3_row4">
+        <item>li&#x101;n</item>
+        <item>li&#x101;ng</item>
+        <item>li&#x101;n</item>
+        <item>l&#x12B;ng</item>
+    </string-array>
+    <array name="learn_expanding_i_btns_page3">
+        <item>@array/learn_expanding_i_btns_page3_row1</item>
+        <item>@array/learn_expanding_i_btns_page3_row2</item>
+        <item>@array/learn_expanding_i_btns_page3_row3</item>
+        <item>@array/learn_expanding_i_btns_page3_row4</item>
+    </array>
+    <array name="learn_expanding_i_btns">
+        <item>@array/learn_expanding_i_btns_page1</item>
+        <item>@array/learn_expanding_i_btns_page2</item>
+        <item>@array/learn_expanding_i_btns_page3</item>
+    </array>
+
+    <array name="learn_expanding_i">
+        <item name="toptext">@array/learn_expanding_i_toptext</item>
+        <item name="bottomtext">@array/learn_expanding_i_bottomtext</item>
+        <item name="btns">@array/learn_expanding_i_btns</item>
+    </array>
+
+    <!-- Exceptions with i -->
+    <string-array name="learn_exceptions_with_i_toptext">
+        <item>When combining wiht the \"s\", \"c\" and \"z\" initials, the \"i\" final is no longer pronounced as an \"ee\" sound.</item>
+        <item>Combining \"sh\", \"ch\", \"zh\" or \"r\" initials with the \"i\" final also results with a unique sound.</item>
+    </string-array>
+    
+    <string-array name="learn_exceptions_with_i_bottomtext">
+        <item></item>
+        <item>Try saying the (American) English word \"shirt\" a few times, but stop before the \"r\" sound gets too string. This is a reasonable starting point for pronouncing \"shi\".</item>
+    </string-array>
+
+    <string-array name="learn_exceptions_with_i_btns_page1_row1">
+        <item>s&#x12B;</item>
+        <item>c&#x12B;</item>
+        <item>z&#x12B;</item>
+    </string-array>
+    <array name="learn_exceptions_with_i_btns_page1">
+        <item>@array/learn_exceptions_with_i_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_exceptions_with_i_btns_page2_row1">
+        <item>sh&#x12B;</item>
+        <item>ch&#x12B;</item>
+        <item>zh&#x12B;</item>
+        <item>r&#x12B;</item>
+    </string-array>
+    <array name="learn_exceptions_with_i_btns_page2">
+        <item>@array/learn_exceptions_with_i_btns_page2_row1</item>
+    </array>
+    <array name="learn_exceptions_with_i_btns">
+        <item>@array/learn_exceptions_with_i_btns_page1</item>
+        <item>@array/learn_exceptions_with_i_btns_page2</item>
+    </array>
+
+    <array name="learn_exceptions_with_i">
+        <item name="toptext">@array/learn_exceptions_with_i_toptext</item>
+        <item name="bottomtext">@array/learn_exceptions_with_i_bottomtext</item>
+        <item name="btns">@array/learn_exceptions_with_i_btns</item>
+    </array>
+
+    <!-- Challenging initials III -->
+    <string-array name="learn_challenging_initials_iii_toptext">
+        <item>The \"x\", \"q\" and \"j\" initials are very similar to the English \"sh\", \"ch\", and \"j\" sounds, except the tongue is placed just below the bottom front teeth when pronouncing these sounds.</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_challenging_initials_iii_bottomtext">
+        <item></item>
+        <item>Note that the tongue being at the bottom of the mouth rather than at the top of the mouth is what distinguishes these sounds from the \"sh\", \"ch\" and \"zh\" initials.</item>
+    </string-array>
+
+    <string-array name="learn_challenging_initials_iii_btns_page1_row1">
+        <item>x&#x12B;</item>
+        <item>xi&#x101;</item>
+        <item>xi&#x101;o</item>
+        <item>xi&#x113;</item>
+        <item>xi&#x16B;</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_iii_btns_page1_row2">
+        <item>q&#x12B;</item>
+        <item>qi&#x101;</item>
+        <item>qi&#x101;o</item>
+        <item>qi&#x113;</item>
+        <item>qi&#x16B;</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_iii_btns_page1_row3">
+        <item>j&#x12B;</item>
+        <item>ji&#x101;</item>
+        <item>ji&#x101;o</item>
+        <item>ji&#x113;</item>
+        <item>ji&#x16B;</item>
+    </string-array>
+    <array name="learn_challenging_initials_iii_btns_page1">
+        <item>@array/learn_challenging_initials_iii_btns_page1_row1</item>
+        <item>@array/learn_challenging_initials_iii_btns_page1_row2</item>
+        <item>@array/learn_challenging_initials_iii_btns_page1_row3</item>
+    </array>
+    <string-array name="learn_challenging_initials_iii_btns_page2_row1">
+        <item>xi&#x101;n</item>
+        <item>xi&#x101;ng</item>
+        <item>x&#x12B;n</item>
+        <item>x&#x12B;ng</item>
+        <item>xi&#x14D;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_iii_btns_page2_row2">
+        <item>qi&#x101;n</item>
+        <item>qi&#x101;ng</item>
+        <item>q&#x12B;n</item>
+        <item>q&#x12B;ng</item>
+        <item>qi&#x14D;ng</item>
+    </string-array>
+    <string-array name="learn_challenging_initials_iii_btns_page2_row3">
+        <item>ji&#x101;n</item>
+        <item>ji&#x101;ng</item>
+        <item>j&#x12B;n</item>
+        <item>j&#x12B;ng</item>
+        <item>ji&#x14D;ng</item>
+    </string-array>
+    <array name="learn_challenging_initials_iii_btns_page2">
+        <item>@array/learn_challenging_initials_iii_btns_page2_row1</item>
+        <item>@array/learn_challenging_initials_iii_btns_page2_row2</item>
+        <item>@array/learn_challenging_initials_iii_btns_page2_row3</item>
+    </array>
+    <array name="learn_challenging_initials_iii_btns">
+        <item>@array/learn_challenging_initials_iii_btns_page1</item>
+        <item>@array/learn_challenging_initials_iii_btns_page2</item>
+    </array>
+
+    <array name="learn_challenging_initials_iii">
+        <item name="toptext">@array/learn_challenging_initials_iii_toptext</item>
+        <item name="bottomtext">@array/learn_challenging_initials_iii_bottomtext</item>
+        <item name="btns">@array/learn_challenging_initials_iii_btns</item>
+    </array>
+    
+    <!-- The u final -->
+    <string-array name="learn_the_u_final_toptext">
+        <item>The Mandarin \"u\" final is always pronounced by rounding the lips and making an \"oo\" sound. When it occurs at the beginning of a sound, it is written as a \"w\".</item>
+        <item>These finals are pronounced as one might expect. Start wiht a \"u\" sound then pronounce the remaining final.</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_the_u_final_bottomtext">
+        <item></item>
+        <item></item>
+        <item>Notice that \"uei\" is abbreviated as \"ui\" when combined with an initial. Also, \"uen\" is abbreviated as \"un\".</item>
+    </string-array>
+
+    <string-array name="learn_the_u_final_btns_page1_row1">
+        <item>w&#x16B;</item>
+        <item>b&#x16B;</item>
+        <item>p&#x16B;</item>
+        <item>m&#x16B;</item>
+        <item>f&#x16B;</item>
+    </string-array>
+    <array name="learn_the_u_final_btns_page1">
+        <item>@array/learn_the_u_final_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_the_u_final_btns_page2_row1">
+        <item>w&#x101;</item>
+        <item>w&#x14D;</item>
+        <item>w&#x113;i</item>
+        <item>w&#x101;i</item>
+    </string-array>
+    <string-array name="learn_the_u_final_btns_page2_row2">
+        <item>w&#x101;n</item>
+        <item>w&#x113;n</item>
+        <item>w&#x101;ng</item>
+        <item>w&#x113;ng</item>
+    </string-array>
+    <array name="learn_the_u_final_btns_page2">
+        <item>@array/learn_the_u_final_btns_page2_row1</item>
+        <item>@array/learn_the_u_final_btns_page2_row2</item>
+    </array>
+    <string-array name="learn_the_u_final_btns_page3_row1">
+        <item>d&#x16B;</item>
+        <item>d&#x16B;o</item>
+        <item>du&#x12B;</item>
+        <item>du&#x101;n</item>
+        <item>d&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_the_u_final_btns_page3_row2">
+        <item>t&#x16B;</item>
+        <item>t&#x16B;o</item>
+        <item>tu&#x12B;</item>
+        <item>tu&#x101;n</item>
+        <item>t&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_the_u_final_btns_page3_row3">
+        <item>n&#x16B;</item>
+        <item>n&#x16B;o</item>
+        <item></item>
+        <item>nu&#x101;n</item>
+        <item></item>
+    </string-array>
+    <string-array name="learn_the_u_final_btns_page3_row4">
+        <item>l&#x16B;</item>
+        <item>l&#x16B;o</item>
+        <item></item>
+        <item>lu&#x101;n</item>
+        <item>l&#x16B;n</item>
+    </string-array>
+    <array name="learn_the_u_final_btns_page3">
+        <item>@array/learn_the_u_final_btns_page3_row1</item>
+        <item>@array/learn_the_u_final_btns_page3_row2</item>
+        <item>@array/learn_the_u_final_btns_page3_row3</item>
+        <item>@array/learn_the_u_final_btns_page3_row4</item>
+    </array>
+    <array name="learn_the_u_final_btns">
+        <item>@array/learn_the_u_final_btns_page1</item>
+        <item>@array/learn_the_u_final_btns_page2</item>
+        <item>@array/learn_the_u_final_btns_page3</item>
+    </array>
+
+    <array name="learn_the_u_final">
+        <item name="toptext">@array/learn_the_u_final_toptext</item>
+        <item name="bottomtext">@array/learn_the_u_final_bottomtext</item>
+        <item name="btns">@array/learn_the_u_final_btns</item>
+    </array>
+    
+    <!-- A big step with u -->
+    <string-array name="learn_a_big_step_with_u_toptext">
+        <item>There are no new initials or finals in this section, but some of these combinations will take some practice for most English speakers.</item>
+        <item>As you can see, the \"challenging initials\" combine with almost all of the \"u\" finals.</item>
+        <item>Here is the last set of pinyin sounds for this section.</item>
+    </string-array>
+    
+    <string-array name="learn_a_big_step_with_u_bottomtext">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_a_big_step_with_u_btns_page1_row1">
+        <item>s&#x16B;</item>
+        <item>s&#x16B;o</item>
+        <item>su&#x12B;</item>
+        <item>su&#x101;n</item>
+        <item>s&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page1_row2">
+        <item>c&#x16B;</item>
+        <item>c&#x16B;o</item>
+        <item>cu&#x12B;</item>
+        <item>cu&#x101;n</item>
+        <item>c&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page1_row3">
+        <item>z&#x16B;</item>
+        <item>z&#x16B;o</item>
+        <item>zu&#x12B;</item>
+        <item>zu&#x101;n</item>
+        <item>z&#x16B;n</item>
+    </string-array>
+    <array name="learn_a_big_step_with_u_btns_page1">
+        <item>@array/learn_a_big_step_with_u_btns_page1_row1</item>
+        <item>@array/learn_a_big_step_with_u_btns_page1_row2</item>
+        <item>@array/learn_a_big_step_with_u_btns_page1_row3</item>
+    </array>
+    <string-array name="learn_a_big_step_with_u_btns_page2_row1">
+        <item>sh&#x16B;</item>
+        <item>shu&#x101;</item>
+        <item>sh&#x16B;o</item>
+        <item>shu&#x12B;</item>
+        <item>shu&#x101;i</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page2_row2">
+        <item>ch&#x16B;</item>
+        <item>chu&#x101;</item>
+        <item>ch&#x16B;o</item>
+        <item>chu&#x12B;</item>
+        <item>chu&#x101;i</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page2_row3">
+        <item>zh&#x16B;</item>
+        <item>zhu&#x101;</item>
+        <item>zh&#x16B;o</item>
+        <item>zhu&#x12B;</item>
+        <item>zhu&#x101;i</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page2_row4">
+        <item>r&#x16B;</item>
+        <item></item>
+        <item>r&#x16B;o</item>
+        <item>ru&#x12B;</item>
+        <item></item>
+    </string-array>
+    <array name="learn_a_big_step_with_u_btns_page2">
+        <item>@array/learn_a_big_step_with_u_btns_page2_row1</item>
+        <item>@array/learn_a_big_step_with_u_btns_page2_row2</item>
+        <item>@array/learn_a_big_step_with_u_btns_page2_row3</item>
+        <item>@array/learn_a_big_step_with_u_btns_page2_row4</item>
+    </array>
+    <string-array name="learn_a_big_step_with_u_btns_page3_row1">
+        <item>shu&#x101;n</item>
+        <item>sh&#x16B;n</item>
+        <item>shu&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page3_row2">
+        <item>chu&#x101;n</item>
+        <item>ch&#x16B;n</item>
+        <item>chu&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page3_row3">
+        <item>zhu&#x101;n</item>
+        <item>zh&#x16B;n</item>
+        <item>zhu&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_a_big_step_with_u_btns_page3_row4">
+        <item>ru&#x101;n</item>
+        <item>r&#x16B;n</item>
+        <item></item>
+    </string-array>
+    <array name="learn_a_big_step_with_u_btns_page3">
+        <item>@array/learn_a_big_step_with_u_btns_page3_row1</item>
+        <item>@array/learn_a_big_step_with_u_btns_page3_row2</item>
+        <item>@array/learn_a_big_step_with_u_btns_page3_row3</item>
+        <item>@array/learn_a_big_step_with_u_btns_page3_row4</item>
+    </array>
+    <array name="learn_a_big_step_with_u_btns">
+        <item>@array/learn_a_big_step_with_u_btns_page1</item>
+        <item>@array/learn_a_big_step_with_u_btns_page2</item>
+        <item>@array/learn_a_big_step_with_u_btns_page3</item>
+    </array>
+
+    <array name="learn_a_big_step_with_u">
+        <item name="toptext">@array/learn_a_big_step_with_u_toptext</item>
+        <item name="bottomtext">@array/learn_a_big_step_with_u_bottomtext</item>
+        <item name="btns">@array/learn_a_big_step_with_u_btns</item>
+    </array>
+
+    <!-- Concluding u -->
+    <string-array name="learn_concluding_u_toptext">
+        <item>Again, there are no new initials or finals in this section.</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="learn_concluding_u_bottomtext">
+        <item></item>
+        <item>As you may have noticed, the \"ueng\" final does not combine with any initials and exists only as \"weng\"</item>
+    </string-array>
+
+    <string-array name="learn_concluding_u_btns_page1_row1">
+        <item>g&#x16B;</item>
+        <item>gu&#x101;</item>
+        <item>g&#x16B;o</item>
+        <item>gu&#x12B;</item>
+        <item>gu&#x101;i</item>
+    </string-array>
+    <string-array name="learn_concluding_u_btns_page1_row2">
+        <item>k&#x16B;</item>
+        <item>ku&#x101;</item>
+        <item>k&#x16B;o</item>
+        <item>ku&#x12B;</item>
+        <item>ku&#x101;i</item>
+    </string-array>
+    <string-array name="learn_concluding_u_btns_page1_row3">
+        <item>h&#x16B;</item>
+        <item>hu&#x101;</item>
+        <item>h&#x16B;o</item>
+        <item>hu&#x12B;</item>
+        <item>hu&#x101;i</item>
+    </string-array>
+    <array name="learn_concluding_u_btns_page1">
+        <item>@array/learn_concluding_u_btns_page1_row1</item>
+        <item>@array/learn_concluding_u_btns_page1_row2</item>
+        <item>@array/learn_concluding_u_btns_page1_row3</item>
+    </array>
+    <string-array name="learn_concluding_u_btns_page2_row1">
+        <item>gu&#x101;n</item>
+        <item>g&#x16B;n</item>
+        <item>gu&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_concluding_u_btns_page2_row2">
+        <item>ku&#x101;n</item>
+        <item>k&#x16B;n</item>
+        <item>ku&#x101;ng</item>
+    </string-array>
+    <string-array name="learn_concluding_u_btns_page2_row3">
+        <item>hu&#x101;n</item>
+        <item>h&#x16B;n</item>
+        <item>hu&#x101;ng</item>
+    </string-array>
+    <array name="learn_concluding_u_btns_page2">
+        <item>@array/learn_concluding_u_btns_page2_row1</item>
+        <item>@array/learn_concluding_u_btns_page2_row2</item>
+        <item>@array/learn_concluding_u_btns_page2_row3</item>
+    </array>
+    <array name="learn_concluding_u_btns">
+        <item>@array/learn_concluding_u_btns_page1</item>
+        <item>@array/learn_concluding_u_btns_page2</item>
+    </array>
+
+    <array name="learn_concluding_u">
+        <item name="toptext">@array/learn_concluding_u_toptext</item>
+        <item name="bottomtext">@array/learn_concluding_u_bottomtext</item>
+        <item name="btns">@array/learn_concluding_u_btns</item>
+    </array>
+
+    <!-- Last but not least -->
+    <string-array name="learn_last_but_not_least_toptext">
+        <item>The &#252; sound can be a bit daunting and will probably require some practice. To pronounce this sound, round your lips as if you\'re about to say \"oo\", but say \"ee\" instead.</item> <!-- u with umlaut -->
+        <item>It might feel a bit like patting your head and rubbing your stomach at the same time, but with some practice this sound will become quite natural.</item>
+        <item>When combined with the \"x\", \"q\" and \"j\" initials, the \"&#252;\" is usually written as a \"u\". Don\'t let this confuse you! Regardless of how the sounds are written, these initials combine with the &#252; sounds.</item>
+    </string-array>
+    
+    <string-array name="learn_last_but_not_least_bottomtext">
+        <item>Keep your lips rounded the whole time!</item>
+        <item>Also, keep in mind that \"n&#252;\" and \"l&#252;\" are distinct from \"nu\" and \"lu\".</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="learn_last_but_not_least_btns_page1_row1">
+        <item>y&#x16B;</item>
+        <item>y&#x16B;e</item>
+        <item>yu&#x101;n</item>
+        <item>y&#x16B;n</item>
+    </string-array>
+    <array name="learn_last_but_not_least_btns_page1">
+        <item>@array/learn_last_but_not_least_btns_page1_row1</item>
+    </array>
+    <string-array name="learn_last_but_not_least_btns_page2_row1">
+        <item>n&#x1D6;</item>
+        <item>n&#x1D6;e</item>
+        <item>l&#x1D6;</item>
+        <item>l&#x1D6;e</item>
+    </string-array>
+    <array name="learn_last_but_not_least_btns_page2">
+        <item>@array/learn_last_but_not_least_btns_page2_row1</item>
+    </array>
+    <string-array name="learn_last_but_not_least_btns_page3_row1">
+        <item>x&#x16B;</item>
+        <item>x&#x16B;e</item>
+        <item>xu&#x101;n</item>
+        <item>x&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_last_but_not_least_btns_page3_row2">
+        <item>q&#x16B;</item>
+        <item>q&#x16B;e</item>
+        <item>qu&#x101;n</item>
+        <item>q&#x16B;n</item>
+    </string-array>
+    <string-array name="learn_last_but_not_least_btns_page3_row3">
+        <item>j&#x16B;</item>
+        <item>j&#x16B;e</item>
+        <item>ju&#x101;n</item>
+        <item>j&#x16B;n</item>
+    </string-array>
+    <array name="learn_last_but_not_least_btns_page3">
+        <item>@array/learn_last_but_not_least_btns_page3_row1</item>
+        <item>@array/learn_last_but_not_least_btns_page3_row2</item>
+        <item>@array/learn_last_but_not_least_btns_page3_row3</item>
+    </array>
+    <array name="learn_last_but_not_least_btns">
+        <item>@array/learn_last_but_not_least_btns_page1</item>
+        <item>@array/learn_last_but_not_least_btns_page2</item>
+        <item>@array/learn_last_but_not_least_btns_page3</item>
+    </array>
+
+    <array name="learn_last_but_not_least">
+        <item name="toptext">@array/learn_last_but_not_least_toptext</item>
+        <item name="bottomtext">@array/learn_last_but_not_least_bottomtext</item>
+        <item name="btns">@array/learn_last_but_not_least_btns</item>
+    </array>
+
+    <!-- Accumulation -->
+    <array name="arrays_learn_content">
+        <item name="content_introduction">@array/strings_learn_introduction</item>
+        <item name="content_getting_started">@array/strings_learn_getting_started</item>
+        <item name="content_more_simple_sounds">@array/learn_more_simple_sounds</item>
+        <item name="content_adding_o_finals">@array/learn_adding_o_finals</item>
+        <item name="content_challenging_initials_i">@array/learn_challenging_initials_i</item>
+        <item name="content_challenging_initials_ii">@array/learn_challenging_initials_ii</item>
+        <item name="content_wrapping_up_a_and_o">@array/learn_wrapping_up_a_and_o</item>
+        <item name="content_adding_e_to_the_mix">@array/learn_adding_e_to_the_mix</item>
+        <item name="content_effort_with_e">@array/learn_effort_with_e</item>
+        <item name="content_wrapping_up_e">@array/learn_wrapping_up_e</item>
+        <item name="content_introducing_i">@array/learn_introducing_i</item>
+        <item name="content_expanding_i">@array/learn_expanding_i</item>
+        <item name="content_exceptions_with_i">@array/learn_exceptions_with_i</item>
+        <item name="content_challenging_initials_iii">@array/learn_challenging_initials_iii</item>
+        <item name="content_the_u_final">@array/learn_the_u_final</item>
+        <item name="content_a_big_step_with_u">@array/learn_a_big_step_with_u</item>
+        <item name="content_concluding_u">@array/learn_concluding_u</item>
+        <item name="content_last_but_not_least">@array/learn_last_but_not_least</item>
+    </array>
+
+</resources>

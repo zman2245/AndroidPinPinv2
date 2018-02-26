@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Sherlock.__Theme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="TextSideBarNew" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">?android:attr/listPreferredItemHeight</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:rotation">270</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">-18dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+    </style>
+</resources>

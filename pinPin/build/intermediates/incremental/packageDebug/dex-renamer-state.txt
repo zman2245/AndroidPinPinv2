@@ -1,0 +1,7 @@
+#Mon Feb 26 11:03:07 PST 2018
+base.0=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3166917f9ed71129563382aef8644328d428633e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_532a6274493856c7d998108fb4bd8b27ca6b0a8f/classes.dex
+base.1=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_532a6274493856c7d998108fb4bd8b27ca6b0a8f
+file.0=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3166917f9ed71129563382aef8644328d428633e/classes.dex

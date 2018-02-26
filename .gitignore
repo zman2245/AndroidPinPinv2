@@ -1,0 +1,6 @@
+bin/
+gen/
+.DS_STORE
+.DS_Store
+res/.DS_Store
+.swp

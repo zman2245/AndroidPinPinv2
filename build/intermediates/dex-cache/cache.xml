@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/libs/crittercism_v3_0_11_sdkonly.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0e30c21ae491d780622ecaee2752969be98140c3">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/2/crittercism_v3_0_11_sdkonly_28a59bb875e13f8bd3763a8cf3f5581f9b9d39be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a1cb0c458c74c9a24e64f078b31eab723b8009d">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3166917f9ed71129563382aef8644328d428633e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.gradle/caches/modules-2/files-2.1/com.flurry.android/ads/6.3.1/3f365b877bb87030c792c5af8751cf977c33452c/ads-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3f365b877bb87030c792c5af8751cf977c33452c">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/ads-6.3.1_e4161662dae6268c269a62759747c7889600215c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d9565e11c93e975a7a2eadcbf639b2d6216f0cb1">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3166917f9ed71129563382aef8644328d428633e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/libs/crittercism_v3_0_11_sdkonly.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e30c21ae491d780622ecaee2752969be98140c3">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/2/crittercism_v3_0_11_sdkonly_28a59bb875e13f8bd3763a8cf3f5581f9b9d39be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.gradle/caches/modules-2/files-2.1/com.flurry.android/ads/6.3.1/3f365b877bb87030c792c5af8751cf977c33452c/ads-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3f365b877bb87030c792c5af8751cf977c33452c">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/ads-6.3.1_e4161662dae6268c269a62759747c7889600215c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f43fabe051d9192d7487434a10ea51c4f573bc84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f43fabe051d9192d7487434a10ea51c4f573bc84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_532a6274493856c7d998108fb4bd8b27ca6b0a8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.gradle/caches/modules-2/files-2.1/com.flurry.android/analytics/6.3.1/13d41a7e4ea1aac6b72aeab124253c49f8530611/analytics-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="13d41a7e4ea1aac6b72aeab124253c49f8530611">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.3.1_ae7e0065c72e1fa207fcb1099c135c58ac03b697/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_532a6274493856c7d998108fb4bd8b27ca6b0a8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zack/.gradle/caches/modules-2/files-2.1/com.flurry.android/analytics/6.3.1/13d41a7e4ea1aac6b72aeab124253c49f8530611/analytics-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="13d41a7e4ea1aac6b72aeab124253c49f8530611">
+        <dex dex="/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/10/analytics-6.3.1_ae7e0065c72e1fa207fcb1099c135c58ac03b697/classes.dex" />
+    </item>
+
+</items>

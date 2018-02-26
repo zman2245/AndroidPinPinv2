@@ -1,0 +1,105 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+<!--         <item name="android:windowAnimationStyle">@style/AnimationActivityFade</item> -->
+    </style>
+    
+    <!-- Transparent Activity theme -->
+    <style name="Theme.CustomTheme.TransparentActivity" parent="Theme.Sherlock">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Activity open/close animations -->
+    <style name="AnimationActivityFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="AnimationActivityCardFlip" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@animator/card_flip_left_out</item>
+        <item name="android:activityOpenExitAnimation">@animator/card_flip_left_in</item>
+        <item name="android:activityCloseEnterAnimation">@animator/card_flip_right_out</item>
+        <item name="android:activityCloseExitAnimation">@animator/card_flip_right_in</item>
+    </style>
+    <style name="AnimationActivityRotate" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@animator/rotate_in</item>
+        <item name="android:activityOpenExitAnimation">@animator/rotate_out</item>
+        <item name="android:activityCloseEnterAnimation">@animator/rotate_in</item>
+        <item name="android:activityCloseExitAnimation">@animator/rotate_out</item>
+    </style>
+    
+    <!-- Text Views -->
+    <style name="TextTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextSubtitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextQuizAnswer" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/textsize_quiz_answer</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_border_black_bottom_only</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextSideBarNew" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">?android:attr/listPreferredItemHeight</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">-18dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+    </style>
+
+    <!-- List View divider style -->
+    <style name="ListViewWithDivider" parent="@android:style/Widget.ListView">
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:divider">#AAAAAA</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="ButtonDefault" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">@dimen/button_height_default</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/textsize_button_default</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    
+    <style name="ButtonPracticeTone" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/practice_button_bg_selector</item>
+    </style>
+    
+    <style name="ButtonPracticeAudioControl" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/practice_button_bg_selector</item>
+    </style>
+
+</resources>

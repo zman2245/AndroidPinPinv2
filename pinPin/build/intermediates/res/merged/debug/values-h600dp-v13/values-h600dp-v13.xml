@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gridview_quiz_choices_cell_height">70dp</dimen>
+    <dimen name="gridview_words_cell_height">55dp</dimen>
+    <dimen name="gridview_words_cell_width">65dp</dimen>
+    <dimen name="margin_learn_pages">20dp</dimen>
+    <dimen name="textsize_learn_body">18sp</dimen>
+</resources>

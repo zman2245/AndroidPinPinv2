@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_learn_pages" >
+
+    <TextView 
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/margin_learn_pages"
+        android:gravity="center_horizontal"
+        android:text="@string/learn_study_title"
+        android:textSize="@dimen/textsize_learn_title"
+        />
+
+    <TextView 
+        android:id="@+id/body"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="@dimen/margin_learn_pages"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/textsize_learn_body"
+        android:text="@string/learn_study_body"/>
+
+    <Button
+        android:id="@+id/btn_study"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_below="@id/body"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learn_study_start_button"
+        />
+
+</RelativeLayout>

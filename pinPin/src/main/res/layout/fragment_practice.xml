@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outer_container"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_practice_container"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/bg_practice_sound" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_learn_pages"
+            android:textColor="#FF000000"
+            android:textSize="@dimen/textsize_practice_word" />
+
+        <!-- The tone buttons -->
+
+        <LinearLayout
+            android:id="@+id/tones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <ImageButton
+                android:id="@+id/btn_tone_first"
+                style="@style/ButtonPracticeTone"
+                android:layout_weight="1"
+                android:src="@drawable/first_tone_white" />
+
+            <ImageButton
+                android:id="@+id/btn_tone_second"
+                style="@style/ButtonPracticeTone"
+                android:layout_weight="1"
+                android:src="@drawable/second_tone_white" />
+
+            <ImageButton
+                android:id="@+id/btn_tone_third"
+                style="@style/ButtonPracticeTone"
+                android:layout_weight="1"
+                android:src="@drawable/third_tone_white" />
+
+            <ImageButton
+                android:id="@+id/btn_tone_fourth"
+                style="@style/ButtonPracticeTone"
+                android:layout_weight="1"
+                android:src="@drawable/fourth_tone_white" />
+        </LinearLayout>
+
+        <!-- The audio control buttons -->
+
+        <LinearLayout
+            android:id="@+id/audio_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tones"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/btn_microphone"
+                style="@style/ButtonPracticeAudioControl"
+                android:layout_weight="1"
+                android:src="@drawable/microphone_light" />
+
+            <ImageButton
+                android:id="@+id/btn_record"
+                style="@style/ButtonPracticeAudioControl"
+                android:layout_weight="1"
+                android:src="@drawable/recorder_light" />
+
+            <ImageButton
+                android:id="@+id/btn_play"
+                style="@style/ButtonPracticeAudioControl"
+                android:layout_weight="1"
+                android:src="@drawable/play" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

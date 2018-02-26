@@ -1,0 +1,4 @@
+#Mon Feb 26 11:05:06 PST 2018
+base.0=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

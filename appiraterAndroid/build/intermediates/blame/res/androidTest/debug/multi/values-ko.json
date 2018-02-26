@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ko/values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 50,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 50,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 50,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 50,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 88,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 88,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 46,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values-ko/values-ko.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 46,
+                        "endOffset": 329
+                    }
+                }
+            }
+        ]
+    }
+]

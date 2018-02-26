@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="margin_default">20dp</dimen>
+    
+    <dimen name="pagecontrol_spacing">5dp</dimen>
+    <dimen name="margin_learn_pages">12dp</dimen>
+    
+    <!-- Shadows -->
+    <dimen name="shadow_height">9dp</dimen>
+    
+    <!-- GridView cell dimensions for the word button grids -->
+    <dimen name="gridview_words_cell_width">55dp</dimen>
+    <dimen name="gridview_words_cell_height">50dp</dimen>
+    <dimen name="gridview_quiz_choices_cell_height">60dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="textsize_results_pct">22sp</dimen>
+    <dimen name="textsize_learn_title">30sp</dimen>
+    <dimen name="textsize_learn_body">16sp</dimen>
+    <dimen name="textsize_learn_button">22sp</dimen>
+    <dimen name="textsize_button_default">20sp</dimen>
+    <dimen name="textsize_quiz_choice">22sp</dimen>
+    <dimen name="textsize_quiz_answer">34sp</dimen>
+    <dimen name="textsize_practice_word">35sp</dimen>
+    <dimen name="textsize_reference_topbar">12sp</dimen>
+    
+    <!-- Button sizes -->
+    <dimen name="button_height_default">55dp</dimen>
+    
+    <!-- dialog dimensions -->
+    <dimen name="upgrade_dialog_height">250dp</dimen>
+
+</resources>

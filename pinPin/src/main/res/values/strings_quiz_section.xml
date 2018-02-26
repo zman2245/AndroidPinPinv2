@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- Quiz list banner -->
+    <string name="quiz_start_banner">Put your skills to the test!</string>
+
+    <!-- Quiz List Content -->
+    <string-array name="quiz_list_titles">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+    </string-array>
+
+    <!-- Quiz Ids: these must never change but may be re-ordered; used by progress factory -->
+    <string-array name="quiz_ids">
+        <item>quiz1</item>
+        <item>quiz2</item>
+        <item>quiz3</item>
+        <item>quiz4</item>
+        <item>quiz5</item>
+    </string-array>
+
+    <!--
+    	Quiz questions: follow the following convention:
+    	   1st item: type
+    	   2nd item: answers
+    	   3rd item: choices (empty for "type 1" questions)
+    	   4th item: tones (optional - randomized if missing)
+    	   5th item: word (optional)
+     -->
+    
+    <!-- Quiz 1 -->
+    <string-array name="quiz1_question1">
+        <item>0</item>
+        <item>hao</item>
+        <item>gao|kao|hao</item>
+    </string-array>
+    <string-array name="quiz1_question2">
+        <item>0</item>
+        <item>gao|kao</item>
+        <item>gao|kao|hao</item>
+    </string-array>
+    <string-array name="quiz1_question3">
+        <item>0</item>
+        <item>dang|tang</item>
+        <item>dan|dang|tan|tang</item>
+    </string-array>
+    <string-array name="quiz1_question4">
+        <item>0</item>
+        <item>dan|tan</item>
+        <item>dan|dang|tan|tang</item>
+    </string-array>
+    <string-array name="quiz1_question5">
+        <item>0</item>
+        <item>mao</item>
+        <item>ma|mao|mo|mou</item>
+    </string-array>
+    <string-array name="quiz1_question6">
+        <item>0</item>
+        <item>mo|mou</item>
+        <item>ma|mao|mo|mou</item>
+    </string-array>
+    <string-array name="quiz1_question7">
+        <item>0</item>
+        <item>dong|tong</item>
+        <item>dang|dong|tang|tong</item>
+    </string-array>
+    <string-array name="quiz1_question8">
+        <item>0</item>
+        <item>dang|dong|tang|tong</item>
+        <item>dang|dong|tang|tong</item>
+    </string-array>
+    <string-array name="quiz1_question9">
+        <item>0</item>
+        <item>po|pou</item>
+        <item>po|pou</item>
+    </string-array>
+    <string-array name="quiz1_question10">
+        <item>0</item>
+        <item>nao|lao</item>
+        <item>nao|nou|lao|lou</item>
+    </string-array>
+    <string-array name="quiz1_question11">
+        <item>1</item>
+        <item>fan</item>
+    </string-array>
+    <string-array name="quiz1_question12">
+        <item>1</item>
+        <item>lai</item>
+    </string-array>
+    <string-array name="quiz1_question13">
+        <item>1</item>
+        <item>dao</item>
+    </string-array>
+    <string-array name="quiz1_question14">
+        <item>1</item>
+        <item>bao</item>
+    </string-array>
+    <string-array name="quiz1_question15">
+        <item>1</item>
+        <item>ma</item>
+    </string-array>
+
+    <array name="quiz1">
+		<item>@array/quiz1_question1</item>
+ 		<item>@array/quiz1_question2</item>
+		<item>@array/quiz1_question3</item>
+		<item>@array/quiz1_question4</item>
+		<item>@array/quiz1_question5</item>
+		<item>@array/quiz1_question6</item>
+		<item>@array/quiz1_question7</item>
+		<item>@array/quiz1_question8</item>
+		<item>@array/quiz1_question9</item>
+		<item>@array/quiz1_question10</item>
+		<item>@array/quiz1_question11</item>
+		<item>@array/quiz1_question12</item>
+		<item>@array/quiz1_question13</item>
+		<item>@array/quiz1_question14</item>
+		<item>@array/quiz1_question15</item>
+    </array>
+    
+    
+    <!-- Quiz 2 -->
+    <string-array name="quiz2_question1">
+        <item>0</item>
+        <item>bin|pin</item>
+        <item>bin|bing|pin|ping</item>
+    </string-array>
+    <string-array name="quiz2_question2">
+        <item>0</item>
+        <item>bing|ping</item>
+        <item>bin|bing|pin|ping</item>
+    </string-array>
+    <string-array name="quiz2_question3">
+        <item>0</item>
+        <item>lian|liang</item>
+        <item>nian|niang|lian|liang</item>
+    </string-array>
+    <string-array name="quiz2_question4">
+        <item>0</item>
+        <item>nin|lin</item>
+        <item>nin|ning|lin|ling</item>
+    </string-array>
+    <string-array name="quiz2_question5">
+        <item>0</item>
+        <item>ning|ling</item>
+        <item>nin|ning|lin|ling</item>
+    </string-array>
+    <string-array name="quiz2_question6">
+        <item>0</item>
+        <item>ren|zhen</item>
+        <item>ren|reng|zhen|zheng</item>
+    </string-array>
+    <string-array name="quiz2_question7">
+        <item>0</item>
+        <item>cai|zai|sai</item>
+        <item>sai|cai|zai</item>
+    </string-array>
+    <string-array name="quiz2_question8">
+        <item>0</item>
+        <item>cao|zao</item>
+        <item>cao|chao|zao|zhao</item>
+    </string-array>
+    <string-array name="quiz2_question9">
+        <item>0</item>
+        <item>zhe|che</item>
+        <item>ce|che|ze|zhe</item>
+    </string-array>
+    <string-array name="quiz2_question10">
+        <item>1</item>
+        <item>zai</item>
+    </string-array>
+    <string-array name="quiz2_question11">
+        <item>1</item>
+        <item>shi</item>
+    </string-array>
+    <string-array name="quiz2_question12">
+        <item>1</item>
+        <item>zhong</item>
+    </string-array>
+    <string-array name="quiz2_question13">
+        <item>1</item>
+        <item>pin</item>
+    </string-array>
+
+    <array name="quiz2">
+        <item>@array/quiz2_question1</item>
+        <item>@array/quiz2_question2</item>
+        <item>@array/quiz2_question3</item>
+        <item>@array/quiz2_question4</item>
+        <item>@array/quiz2_question5</item>
+        <item>@array/quiz2_question6</item>
+        <item>@array/quiz2_question7</item>
+        <item>@array/quiz2_question8</item>
+        <item>@array/quiz2_question9</item>
+        <item>@array/quiz2_question10</item>
+        <item>@array/quiz2_question11</item>
+        <item>@array/quiz2_question12</item>
+        <item>@array/quiz2_question13</item>
+    </array>
+    
+    <!-- Quiz 3 -->
+    <string-array name="quiz3_question1">
+        <item>0</item>
+        <item>xu|shu</item>
+        <item>zhu|shu|xu|xue</item>
+    </string-array>
+    <string-array name="quiz3_question2">
+        <item>0</item>
+        <item>xu|shu</item>
+        <item>zhu|shu|xu|xue</item>
+    </string-array>
+    <string-array name="quiz3_question3">
+        <item>0</item>
+        <item>hen|hun</item>
+        <item>gen|gun|hen|hun</item>
+    </string-array>
+    <string-array name="quiz3_question4">
+        <item>0</item>
+        <item>guang|kuang</item>
+        <item>guan|guang|kuan|kuang</item>
+    </string-array>
+    <string-array name="quiz3_question5">
+        <item>0</item>
+        <item>lu|lü</item>
+        <item>lu|lü|nu|nü</item>
+    </string-array>
+    <string-array name="quiz3_question6">
+        <item>0</item>
+        <item>jun|zhun</item>
+        <item>jun|juan|zhun|zhuan</item>
+    </string-array>
+    <string-array name="quiz3_question7">
+        <item>0</item>
+        <item>juan|zhuan</item>
+        <item>hun|juan|zhun|zhuan</item>
+    </string-array>
+    <string-array name="quiz3_question8">
+        <item>0</item>
+        <item>xiao|qiao|shao|chao</item>
+        <item>xiao|shao|qiao|chao</item>
+    </string-array>
+    <string-array name="quiz3_question9">
+        <item>0</item>
+        <item>xin|xing|qin|qing</item>
+        <item>xin|xing|qin|qing</item>
+    </string-array>
+    <string-array name="quiz3_question10">
+        <item>0</item>
+        <item>quan|chuan</item>
+        <item>qun|quan|chun|chuan</item>
+    </string-array>
+    <string-array name="quiz3_question11">
+        <item>1</item>
+        <item>un</item>
+    </string-array>
+    <string-array name="quiz3_question12">
+        <item>1</item>
+        <item>iong</item>
+    </string-array>
+    <string-array name="quiz3_question13">
+        <item>1</item>
+        <item>iang</item>
+    </string-array>
+    <string-array name="quiz3_question14">
+        <item>1</item>
+        <item>xi</item>
+    </string-array>
+    <string-array name="quiz3_question15">
+        <item>1</item>
+        <item>ueng</item>
+    </string-array>
+
+    <array name="quiz3">
+        <item>@array/quiz3_question1</item>
+        <item>@array/quiz3_question2</item>
+        <item>@array/quiz3_question3</item>
+        <item>@array/quiz3_question4</item>
+        <item>@array/quiz3_question5</item>
+        <item>@array/quiz3_question6</item>
+        <item>@array/quiz3_question7</item>
+        <item>@array/quiz3_question8</item>
+        <item>@array/quiz3_question9</item>
+        <item>@array/quiz3_question10</item>
+        <item>@array/quiz3_question11</item>
+        <item>@array/quiz3_question12</item>
+        <item>@array/quiz3_question13</item>
+        <item>@array/quiz3_question14</item>
+        <item>@array/quiz3_question15</item>
+    </array>
+
+    <!-- Quiz 4 -->
+    <string-array name="quiz4_question1">
+        <item>0+0</item>
+        <item>fei+chang</item>
+        <item>fei|pei|bei|hei+zhang|zang|chang|cang</item>
+        <item>1+2</item>
+    </string-array>
+    <string-array name="quiz4_question2">
+        <item>0+0</item>
+        <item>hao+chi</item>
+        <item>hao|gao|kao+ci|chi|shi</item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz4_question3">
+        <item>0+0</item>
+        <item>gan+jue</item>
+        <item>gan|kan|han+zhua|jue|que</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz4_question4">
+        <item>0+0</item>
+        <item>xue+xi</item>
+        <item>xie|xue|shei|shui+xi|xie|shi|she</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question5">
+        <item>0+0</item>
+        <item>xue+xi</item>
+        <item>xie|xue|shei|shui+xi|xie|shi|she</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question6">
+        <item>0+0</item>
+        <item>cao+mei</item>
+        <item>sao|cao|zao|chao+mei|mie|ma|mai</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz4_question7">
+        <item>0+0</item>
+        <item>cao+mei</item>
+        <item>sao|cao|zao|chao+mei|mie|ma|mai</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz4_question8">
+        <item>0+0</item>
+        <item>cao+mei</item>
+        <item>sao|cao|zao|chao+mei|mie|ma|mai</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz4_question9">
+        <item>0+0</item>
+        <item>zheng+chang</item>
+        <item>zen|zeng|zhen|zheng+qian|qiang|chan|chang</item>
+        <item>4+2</item>
+    </string-array>
+    <string-array name="quiz4_question10">
+        <item>0+0</item>
+        <item>zheng+huai|guai|kuai</item>
+        <item>zen|zhen|zheng+huai|guai|kuai</item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz4_question11">
+        <item>0+0</item>
+        <item>mei+shi|chi|zhi</item>
+        <item>ma|mai|mei+shi|chi|zhi</item>
+    </string-array>
+    <string-array name="quiz4_question12">
+        <item>0+0</item>
+        <item>nin+hao</item>
+        <item>ni|nin|ning+gao|kao|hao</item>
+        <item>2+3</item>
+    </string-array>
+    <string-array name="quiz4_question13">
+        <item>0+0</item>
+        <item>da+rao</item>
+        <item>da|dao|ta|tao+lao|rao|nao|zhao</item>
+    </string-array>
+    <string-array name="quiz4_question14">
+        <item>0+0</item>
+        <item>ma+fan</item>
+        <item>na|nan|ma|man+fa|fan|fang|fen</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question15">
+        <item>0+0</item>
+        <item>iong+üan</item>
+        <item>iu|iong|uo|ueng+üe|üan|u|un</item>
+        <item>1+3</item>
+    </string-array>
+    <string-array name="quiz4_question16">
+        <item>0+0</item>
+        <item>niu+üe</item>
+        <item>nie|nuo|niu|nüe+u|üe|uan|un</item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz4_question17">
+        <item>0+0</item>
+        <item>nü+shi</item>
+        <item>nu|nü|lu|lü+xi|xie|shi|chi</item>
+        <item>3+4</item>
+    </string-array>
+    <string-array name="quiz4_question18">
+        <item>0+0</item>
+        <item>qi+shi</item>
+        <item>qi|xi|chi|shi+qi|xi|chi|shi</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question19">
+        <item>0+0</item>
+        <item>shi+xi</item>
+        <item>qi|xi|chi|shi+qi|xi|chi|shi</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question20">
+        <item>0+0</item>
+        <item>reng+ran</item>
+        <item>ren|reng|run|ruan+ran|rang|ren|reng</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz4_question21">
+        <item>1+1</item>
+        <item>ma+la</item>
+    </string-array>
+    <string-array name="quiz4_question22">
+        <item>1+1</item>
+        <item>hao+ma</item>
+        <item></item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz4_question23">
+        <item>1+1</item>
+        <item>hao+ma</item>
+        <item></item>
+        <item>4+3</item>
+    </string-array>
+    <string-array name="quiz4_question24">
+        <item>1+1</item>
+        <item>ai+ren</item>
+    </string-array>
+    <string-array name="quiz4_question25">
+        <item>1+1</item>
+        <item>mai+uan</item>
+        <item></item>
+        <item>4+2</item>
+    </string-array>
+    <string-array name="quiz4_question26">
+        <item>1+1</item>
+        <item>mai+uan</item>
+        <item></item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz4_question27">
+        <item>1+1</item>
+        <item>hen+xiang</item>
+    </string-array>
+    <string-array name="quiz4_question28">
+        <item>1+1</item>
+        <item>shi+shi</item>
+        <item></item>
+        <item>2+4</item>
+    </string-array>
+    <string-array name="quiz4_question29">
+        <item>1+1</item>
+        <item>shi+shi</item>
+        <item></item>
+        <item>4+2</item>
+    </string-array>
+    <string-array name="quiz4_question30">
+        <item>1+1</item>
+        <item>shi+shi</item>
+        <item></item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz4_question31">
+        <item>1+1</item>
+        <item>bi+ru</item>
+        <item></item>
+        <item>3+2</item>
+    </string-array>
+
+    <array name="quiz4">
+        <item>@array/quiz4_question1</item>
+        <item>@array/quiz4_question2</item>
+        <item>@array/quiz4_question3</item>
+        <item>@array/quiz4_question4</item>
+        <item>@array/quiz4_question5</item>
+        <item>@array/quiz4_question6</item>
+        <item>@array/quiz4_question7</item>
+        <item>@array/quiz4_question8</item>
+        <item>@array/quiz4_question9</item>
+        <item>@array/quiz4_question10</item>
+        <item>@array/quiz4_question11</item>
+        <item>@array/quiz4_question12</item>
+        <item>@array/quiz4_question13</item>
+        <item>@array/quiz4_question14</item>
+        <item>@array/quiz4_question15</item>
+        <item>@array/quiz4_question16</item>
+        <item>@array/quiz4_question17</item>
+        <item>@array/quiz4_question18</item>
+        <item>@array/quiz4_question19</item>
+        <item>@array/quiz4_question20</item>
+        <item>@array/quiz4_question21</item>
+        <item>@array/quiz4_question22</item>
+        <item>@array/quiz4_question23</item>
+        <item>@array/quiz4_question24</item>
+        <item>@array/quiz4_question25</item>
+        <item>@array/quiz4_question26</item>
+        <item>@array/quiz4_question27</item>
+        <item>@array/quiz4_question28</item>
+        <item>@array/quiz4_question29</item>
+        <item>@array/quiz4_question30</item>
+        <item>@array/quiz4_question31</item>
+    </array>
+
+    <!-- Quiz 5 -->
+    <string-array name="quiz5_question1">
+        <item>0+0</item>
+        <item>zhu+iao</item>
+        <item>zu|zhu|ju+iao|iu|ao</item>
+        <item>3+4</item>
+    </string-array>
+    <string-array name="quiz5_question2">
+        <item>0+0</item>
+        <item>zuo+ie</item>
+        <item>zuo|zhuo+ie|ia</item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz5_question3">
+        <item>0+0</item>
+        <item>quan+ti</item>
+        <item>chuan|quan+di|ti</item>
+        <item>2+3</item>
+    </string-array>
+    <string-array name="quiz5_question4">
+        <item>0+0</item>
+        <item>gang+cai</item>
+        <item>gang|kang+cai|chai</item>
+        <item>1+2</item>
+    </string-array>
+    <string-array name="quiz5_question5">
+        <item>0+0</item>
+        <item>shi+fen</item>
+        <item>xi|shi|si+fen|feng|fan</item>
+        <item>2+1</item>
+    </string-array>
+    <string-array name="quiz5_question6">
+        <item>0+0</item>
+        <item>qu+de</item>
+        <item>chu|qu+de|duo</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz5_question7">
+        <item>0+0</item>
+        <item>ji+chu</item>
+        <item>zi|zhi|ji+chu|qu|shu</item>
+        <item>1+3</item>
+    </string-array>
+    <string-array name="quiz5_question8">
+        <item>0+0</item>
+        <item>tian+qi</item>
+        <item>tian|dian+qi|chi</item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz5_question9">
+        <item>0+0</item>
+        <item>xue+sheng</item>
+        <item>sui|xue|shui+xiang|sheng|shang</item>
+        <item>2+1</item>
+    </string-array>
+    <string-array name="quiz5_question10">
+        <item>0+0</item>
+        <item>uan+quan</item>
+        <item>uan|un|üan+quan|chuan|chuang</item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz5_question11">
+        <item>0+0</item>
+        <item>shi+xian</item>
+        <item>xi|shi|zhi+xian|shen|xie</item>
+        <item>2+4</item>
+    </string-array>
+    <string-array name="quiz5_question12">
+        <item>0+0</item>
+        <item>si+xiang</item>
+        <item>xi|shi|si+shang|xiang|qiang</item>
+        <item>1+3</item>
+    </string-array>
+    <string-array name="quiz5_question13">
+        <item>0+0</item>
+        <item>ing+gai</item>
+        <item>in|ing+gai|kai</item>
+        <item>1+1</item>
+    </string-array>
+    <string-array name="quiz5_question14">
+        <item>0+0</item>
+        <item>jiao+shi</item>
+        <item>zao|zhao|jiao+si|shi|xi</item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz5_question15">
+        <item>0+0</item>
+        <item>shui+ping</item>
+        <item>sui|shui|shei+pin|ping|bing</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz5_question16">
+        <item>0+0</item>
+        <item>liang+kuai</item>
+        <item>lian|liang|lan|lang+kai|kuai|gai|guai</item>
+        <item>2+4</item>
+    </string-array>
+    <string-array name="quiz5_question17">
+        <item>0+0</item>
+        <item>zhu+i</item>
+        <item>ji|zhu+i|ie</item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz5_question18">
+        <item>0+0</item>
+        <item>ian+chu</item>
+        <item>ian|in|iang+qu|chu|zhu</item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz5_question19">
+        <item>0+0</item>
+        <item>fa+xian</item>
+        <item>fa|fan|fang+xian|xiang|shen</item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz5_question20">
+        <item>0+0</item>
+        <item>jie+guo</item>
+        <item>zhe|ze|jie+guo|kuo|gou</item>
+        <item>2+3</item>
+    </string-array>
+    <string-array name="quiz5_question21">
+        <item>0+0</item>
+        <item>jing+ian</item>
+        <item>jin|jing+ian|nian</item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz5_question22">
+        <item>0+0</item>
+        <item>iao+qiu</item>
+        <item>iao|iu|uo+qiu|chuo|qiao</item>
+        <item>1+2</item>
+    </string-array>
+    <string-array name="quiz5_question23">
+        <item>0+0</item>
+        <item>ren+zhen</item>
+        <item>ren|ran+zen|zhen</item>
+        <item>4+1</item>
+    </string-array>
+    <string-array name="quiz5_question24">
+        <item>0+0</item>
+        <item>qing+jia</item>
+        <item>qin|qing|qiang+jia|zha|qia</item>
+        <item>3+4</item>
+    </string-array>
+    <string-array name="quiz5_question25">
+        <item>0+0</item>
+        <item>qi+chuang</item>
+        <item>qi|ji|chi+quan|chuan|chuang</item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz5_question26">
+        <item>0+0</item>
+        <item>dian+shi</item>
+        <item>dian|tian+shi|chi</item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz5_question27">
+        <item>0+0</item>
+        <item>in+üe</item>
+        <item>in|ing|ün+üe|nüe|ie</item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz5_question28">
+        <item>0+0</item>
+        <item>dian+xin</item>
+        <item>dian|tian|dan+xin|xing|shen</item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz5_question29">
+        <item>1+1</item>
+        <item>bu+ru</item>
+        <item></item>
+        <item>4+2</item>
+    </string-array>
+    <string-array name="quiz5_question30">
+        <item>1+1</item>
+        <item>lao+dong</item>
+        <item></item>
+        <item>2+4</item>
+    </string-array>
+    <string-array name="quiz5_question31">
+        <item>1+1</item>
+        <item>bei+bian</item>
+        <item></item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz5_question32">
+        <item>1+1</item>
+        <item>hui+lai</item>
+        <item></item>
+        <item>2+2</item>
+    </string-array>
+    <string-array name="quiz5_question33">
+        <item>1+1</item>
+        <item>di+fang</item>
+        <item></item>
+        <item>4+1</item>
+    </string-array>
+    <string-array name="quiz5_question34">
+        <item>1+1</item>
+        <item>xiao+shi</item>
+        <item></item>
+        <item>3+2</item>
+    </string-array>
+    <string-array name="quiz5_question35">
+        <item>1+1</item>
+        <item>gong+chang</item>
+        <item></item>
+        <item>1+3</item>
+    </string-array>
+    <string-array name="quiz5_question36">
+        <item>1+1</item>
+        <item>guang+bo</item>
+        <item></item>
+        <item>3+1</item>
+    </string-array>
+    <string-array name="quiz5_question37">
+        <item>1+1</item>
+        <item>fang+jian</item>
+        <item></item>
+        <item>2+1</item>
+    </string-array>
+    <string-array name="quiz5_question38">
+        <item>1+1</item>
+        <item>pi+ping</item>
+        <item></item>
+        <item>1+2</item>
+    </string-array>
+    <string-array name="quiz5_question39">
+        <item>1+1</item>
+        <item>fang+jia</item>
+        <item></item>
+        <item>4+4</item>
+    </string-array>
+    <string-array name="quiz5_question40">
+        <item>1+1</item>
+        <item>pang+bian</item>
+        <item></item>
+        <item>2+1</item>
+    </string-array>
+    <string-array name="quiz5_question41">
+        <item>1+1</item>
+        <item>iu+iong</item>
+        <item></item>
+        <item>2+3</item>
+    </string-array>
+    <string-array name="quiz5_question42">
+        <item>1+1</item>
+        <item>niu+nai</item>
+        <item></item>
+        <item>2+3</item>
+    </string-array>
+    <string-array name="quiz5_question43">
+        <item>1+1</item>
+        <item>liu+nian</item>
+        <item></item>
+        <item>2+4</item>
+    </string-array>
+    <string-array name="quiz5_question44">
+        <item>1+1</item>
+        <item>fan+i</item>
+        <item></item>
+        <item>1+4</item>
+    </string-array>
+    <string-array name="quiz5_question45">
+        <item>1+1</item>
+        <item>shuo+ming</item>
+        <item></item>
+        <item>1+2</item>
+    </string-array>
+    <string-array name="quiz5_question46">
+        <item>1+1</item>
+        <item>shen+ti</item>
+        <item></item>
+        <item>1+3</item>
+    </string-array>
+    <string-array name="quiz5_question47">
+        <item>1+1</item>
+        <item>na+li</item>
+        <item></item>
+        <item>4+3</item>
+    </string-array>
+    
+    <array name="quiz5">
+        <item>@array/quiz5_question1</item>
+        <item>@array/quiz5_question2</item>
+        <item>@array/quiz5_question3</item>
+        <item>@array/quiz5_question4</item>
+        <item>@array/quiz5_question5</item>
+        <item>@array/quiz5_question6</item>
+        <item>@array/quiz5_question7</item>
+        <item>@array/quiz5_question8</item>
+        <item>@array/quiz5_question9</item>
+        <item>@array/quiz5_question10</item>
+        <item>@array/quiz5_question11</item>
+        <item>@array/quiz5_question12</item>
+        <item>@array/quiz5_question13</item>
+        <item>@array/quiz5_question14</item>
+        <item>@array/quiz5_question15</item>
+        <item>@array/quiz5_question16</item>
+        <item>@array/quiz5_question17</item>
+        <item>@array/quiz5_question18</item>
+        <item>@array/quiz5_question19</item>
+        <item>@array/quiz5_question20</item>
+        <item>@array/quiz5_question21</item>
+        <item>@array/quiz5_question22</item>
+        <item>@array/quiz5_question23</item>
+        <item>@array/quiz5_question24</item>
+        <item>@array/quiz5_question25</item>
+        <item>@array/quiz5_question26</item>
+        <item>@array/quiz5_question27</item>
+        <item>@array/quiz5_question28</item>
+        <item>@array/quiz5_question29</item>
+        <item>@array/quiz5_question30</item>
+        <item>@array/quiz5_question31</item>
+        <item>@array/quiz5_question32</item>
+        <item>@array/quiz5_question33</item>
+        <item>@array/quiz5_question34</item>
+        <item>@array/quiz5_question35</item>
+        <item>@array/quiz5_question36</item>
+        <item>@array/quiz5_question37</item>
+        <item>@array/quiz5_question38</item>
+        <item>@array/quiz5_question39</item>
+        <item>@array/quiz5_question40</item>
+        <item>@array/quiz5_question41</item>
+        <item>@array/quiz5_question42</item>
+        <item>@array/quiz5_question43</item>
+        <item>@array/quiz5_question44</item>
+        <item>@array/quiz5_question45</item>
+        <item>@array/quiz5_question46</item>
+        <item>@array/quiz5_question47</item>
+    </array>
+
+    <array name="quiz_questions_master">
+        <item>@array/quiz1</item>
+        <item>@array/quiz2</item>
+        <item>@array/quiz3</item>
+        <item>@array/quiz4</item>
+        <item>@array/quiz5</item>
+        
+    </array>
+
+</resources>

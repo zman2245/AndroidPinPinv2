@@ -1,0 +1,294 @@
+[
+    {
+        "outputFile": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 62,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 62,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 64,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 64,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 63,
+                    "endOffset": 292
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 63,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 297,
+                    "endColumn": 63,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 63,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 60,
+                    "endOffset": 417
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endColumn": 60,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 422,
+                    "endColumn": 64,
+                    "endOffset": 482
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 422,
+                        "endColumn": 64,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 487,
+                    "endColumn": 61,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 61,
+                        "endOffset": 544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 71,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 71,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 45,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 45,
+                        "endOffset": 662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 667,
+                    "endColumn": 50,
+                    "endOffset": 713
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 667,
+                        "endColumn": 50,
+                        "endOffset": 713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 718,
+                    "endColumn": 54,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 54,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 131,
+                    "endOffset": 900
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 131,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 905,
+                    "endColumn": 46,
+                    "endOffset": 947
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 46,
+                        "endOffset": 947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 952,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 1181
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1181
+                    }
+                }
+            }
+        ]
+    }
+]

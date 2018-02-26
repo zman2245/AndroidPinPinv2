@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__spinner_ab_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__item_background_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__textfield_searchview_right_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__list_selector_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/play_icon.png",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/play_icon.png"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_border_black_bottom_only.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_border_black_bottom_only.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__progress_horizontal_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__progress_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_upgrade_button_default.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_upgrade_button_default.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__search_dropdown_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__search_dropdown_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__btn_cab_done_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__btn_cab_done_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__textfield_searchview_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_upgrade_button_clicked.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_upgrade_button_clicked.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__progress_horizontal_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_border_black.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_border_black.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__ic_clear_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/reference_grid_bg_selector.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/reference_grid_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__item_background_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_upgrade_button_selector.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_upgrade_button_selector.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/practice_button_bg_selector.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/practice_button_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__list_selector_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_practice_sound.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_practice_sound.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/button_appirator.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/appiraterAndroid/build/intermediates/bundles/default/res/drawable/button_appirator.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/bg_border_learn_grids.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/bg_border_learn_grids.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__tab_indicator_ab_holo.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__ic_clear.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__ic_clear.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__textfield_searchview_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/quiz_choice_textcolor_selector.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/drawable/quiz_choice_textcolor_selector.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__activated_background_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__activated_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__list_selector_background_transition_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__btn_cab_done_holo_dark.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__btn_cab_done_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__activated_background_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__activated_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__search_dropdown_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__search_dropdown_light.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/drawable/abs__spinner_ab_holo_light.xml",
+        "source": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/drawable/abs__spinner_ab_holo_light.xml"
+    }
+]

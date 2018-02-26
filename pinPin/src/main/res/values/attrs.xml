@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PageControl">
+        <attr name="spacing" format="reference|dimension" />
+        <attr name="selected_item_drawable_src" format="reference" />
+        <attr name="deselected_item_drawable_src" format="reference" />
+    </declare-styleable>
+
+</resources>

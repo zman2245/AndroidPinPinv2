@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h600dp-v13/values-h600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/values-h600dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 85,
+                        "endColumn": 64,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 57,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/values-h600dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 375,
+                        "endColumn": 57,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 56,
+                    "endOffset": 230
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/values-h600dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 56,
+                        "endOffset": 370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 235,
+                    "endColumn": 49,
+                    "endOffset": 280
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/values-h600dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endColumn": 49,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 285,
+                    "endColumn": 50,
+                    "endOffset": 331
+                },
+                "from": {
+                    "file": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/values-h600dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 50,
+                        "endOffset": 277
+                    }
+                }
+            }
+        ]
+    }
+]

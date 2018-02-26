@@ -1,0 +1,38 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/horizontal_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/topbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <View
+            android:id="@+id/shadow_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shadow_height"
+            android:layout_alignLeft="@id/topbar"
+            android:layout_alignRight="@id/topbar"
+            android:layout_below="@id/topbar"
+            android:background="@drawable/shadow_top" />
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/topbar"
+            android:gravity="center"
+            android:listSelector="@drawable/reference_grid_bg_selector"
+            android:scrollbars="vertical"
+            android:stretchMode="columnWidth" />
+    </RelativeLayout>
+
+</HorizontalScrollView>

@@ -1,0 +1,29 @@
+<com.zman2245.pinpin.view.listitem.ViewQuizChoice xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/gridview_quiz_choices_cell_height"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/choice"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_quiz_choice"
+        android:textColor="@drawable/quiz_choice_textcolor_selector"
+         />
+        
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/choice"
+        android:layout_marginRight="5dp"
+        android:scaleType="center"
+        android:src="@drawable/check_green"
+        android:visibility="invisible"
+        android:contentDescription="@string/image_condesc_quiz_choice_correct"
+        />
+    
+</com.zman2245.pinpin.view.listitem.ViewQuizChoice>

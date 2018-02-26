@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidPinPin.iml" filepath="$PROJECT_DIR$/AndroidPinPin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appiraterAndroid/appiraterAndroid.iml" filepath="$PROJECT_DIR$/appiraterAndroid/appiraterAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinPin/pinPin.iml" filepath="$PROJECT_DIR$/pinPin/pinPin.iml" />
+    </modules>
+  </component>
+</project>

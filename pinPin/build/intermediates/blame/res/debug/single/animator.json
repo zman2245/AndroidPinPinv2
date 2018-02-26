@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/card_flip_left_in.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/card_flip_left_in.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/rotate_out.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/rotate_out.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/rotate_in.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/rotate_in.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/card_flip_left_out.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/card_flip_left_out.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/card_flip_right_in.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/card_flip_right_in.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/animator/card_flip_right_out.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/animator/card_flip_right_out.xml"
+    }
+]

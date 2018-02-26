@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string-array name="reference_topbar">
+        <item>a</item>
+        <item>ai</item>
+        <item>ao</item>
+        <item>an</item>
+        <item>ang</item>
+        <item>o</item>
+        <item>ong</item>
+        <item>ou</item>
+        <item>e</item>
+        <item>ei</item>
+        <item>en</item>
+        <item>eng</item>
+        <item>er</item>
+        <item>i</item>
+        <item>ia</item>
+        <item>iao</item>
+        <item>ie</item>
+        <item>iu</item>
+        <item>ian</item>
+        <item>iang</item>
+        <item>in</item>
+        <item>ing</item>
+        <item>iong</item>
+        <item>u</item>
+        <item>ua</item>
+        <item>uo</item>
+        <item>ui</item>
+        <item>uai</item>
+        <item>uan</item>
+        <item>un</item>
+        <item>uang</item>
+        <item>ueng</item>
+        <item>&#x1D6;</item>
+        <item>&#x1D6;e</item>
+        <item>&#x1D6;an</item>
+        <item>&#x1D6;n</item>
+    </string-array>
+    
+</resources>

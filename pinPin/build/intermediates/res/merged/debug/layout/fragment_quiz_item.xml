@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_default" >
+
+    <LinearLayout
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:id="@+id/answer_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="3"
+            style="@style/TextQuizAnswer"
+            android:text="@string/quiz_answer_unknown"
+            />
+        
+        <ImageView 
+            android:id="@+id/img_mic"
+            android:layout_width="77dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/microphone"
+            android:contentDescription="@string/image_condesc_microphone"
+            />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_continue"
+        style="@style/ButtonDefault"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_quiz_question_continue"
+        android:visibility="invisible"
+        />
+
+    <GridView
+        android:id="@+id/grid_choice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/answer"
+        android:layout_above="@id/btn_continue"
+        android:listSelector="@android:color/transparent"
+        android:background="@color/bg_color_inset"
+        />
+    
+   	<View
+        android:id="@+id/shadow_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadow_height"
+        android:layout_below="@id/answer"
+        android:background="@drawable/shadow_top" />
+
+</RelativeLayout>

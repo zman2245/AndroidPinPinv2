@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- Basic app info -->
+    <string name="app_name">Pin Pin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Titles -->
+    <string name="title_upgrade_dialog">Select an Upgrade</string>
+    
+    <!-- Content Descriptions for ImageViews and such -->
+    <string name="image_desc_trophy">trophy</string>
+    <string name="image_condesc_microphone">Microphone</string>
+    <string name="image_condesc_quiz_choice_correct">Correctness Indicator</string>
+    
+    <!-- Menu - Global Nav -->
+    <string name="menu_global_nav_learn">Learn</string>
+    <string name="menu_global_nav_quiz">Quiz</string>
+    <string name="menu_global_nav_reference">Reference</string>
+
+    <!-- Quiz section -->
+    <string name="btn_quiz_question_continue">Continue</string>
+    <string name="btn_quiz_question_done">Done</string>
+    <string name="quiz_end_title_bronze">Not too bad!</string>
+    <string name="quiz_end_subtitle_bronze">You earned a bronze trophy!</string>
+    <string name="quiz_end_title_silver">Well done!</string>
+    <string name="quiz_end_subtitle_silver">You earned a silver trophy!</string>
+    <string name="quiz_end_title_gold">Perfect!</string>
+    <string name="quiz_end_subtitle_gold">You earned a gold trophy!</string>
+    <string name="quiz_end_title_lose">Keep practicing!</string>
+    <string name="quiz_end_subtitle_lose">Score higher to earn a trophy!</string>
+	<string name="quiz_answer_unknown">\?</string>    
+
+	<!-- Menu -->
+	<string name="menu_upgrade">Upgrade</string>
+	<string name="menu_tone">Tone</string>
+	<string name="menu_tone_first">First</string>
+	<string name="menu_tone_second">Second</string>
+	<string name="menu_tone_third">Third</string>
+	<string name="menu_tone_fourth">Fourth</string>
+	
+	<!-- Learn list sidebars -->
+	<string name="sidebar_learn_new">new</string>
+	<string name="sidebar_learn_completed">complete</string>
+	
+	<!-- in app billing -->
+	<string name="purchased">Purchased</string>
+	<string name="quiz_upgrade_button">Get More Quizzes</string>
+	
+	<!-- Toasts -->
+	<string name="toast_upgrade_info_failed">There was a problem loading purchased items. Please try again.</string>
+	<string name="toast_upgrade_purchase_failed">There was a problem processing your order. Please try again.</string>
+	<string name="toast_upgrade_purchased_items_failed">There was a problem loading your purchased items. If you have purchased items, please check your internet connection and reload the app.</string>
+	<string name="toast_upgrade_purchase_success">Order processed! Thank you!</string>
+	<string name="toast_practice_file_not_found">PinPin was unable to record. Please make sure your device is not mounted as USB storage and there is storage room on the device.</string>
+</resources>

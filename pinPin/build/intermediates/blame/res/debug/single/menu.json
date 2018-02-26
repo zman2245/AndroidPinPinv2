@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/menu/menu_default.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/menu/menu_default.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/menu/menu_reference.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/menu/menu_reference.xml"
+    }
+]

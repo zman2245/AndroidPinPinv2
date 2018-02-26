@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_tone"
+        android:enabled="true"
+        android:icon="@drawable/first_tone_white"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_tone">
+        <menu>
+            <item
+                android:id="@+id/menu_item_tone_first"
+                android:icon="@drawable/first_tone_white"
+                android:title="@string/menu_tone_first"/>
+            <item
+                android:id="@+id/menu_item_tone_second"
+                android:icon="@drawable/second_tone_white"
+                android:title="@string/menu_tone_second"/>
+            <item
+                android:id="@+id/menu_item_tone_third"
+                android:icon="@drawable/third_tone_white"
+                android:title="@string/menu_tone_third"/>
+            <item
+                android:id="@+id/menu_item_tone_fourth"
+                android:icon="@drawable/fourth_tone_white"
+                android:title="@string/menu_tone_fourth"/>
+        </menu>
+    </item>
+
+</menu>

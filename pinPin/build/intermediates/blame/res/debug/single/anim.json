@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_out_to_left.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_out_to_bottom.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/fade_in_default.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/fade_in_default.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_in_from_right.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_in_from_bottom.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_in_from_left.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/fade_out_default.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/fade_out_default.xml"
+    },
+    {
+        "merged": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/res/merged/debug/anim/slide_out_to_right.xml",
+        "source": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/src/main/res/anim/slide_out_to_right.xml"
+    }
+]

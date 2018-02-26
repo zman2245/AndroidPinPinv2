@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/banner"
+        style="@style/TextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/quiz_start_banner" />
+    
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListViewWithDivider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner" />
+    
+    <RelativeLayout
+        android:id="@+id/quiz_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/banner"
+        android:layout_marginTop="?android:attr/listPreferredItemHeight"
+        android:gravity="center"
+        android:background="#CC000000" >
+        
+        <Button 
+            android:id="@+id/btn_upgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:gravity="center"
+            android:background="@drawable/bg_upgrade_button_selector"
+            android:text="@string/quiz_upgrade_button"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/key_orange"/>
+        
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/shadow_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadow_height"
+        android:layout_below="@id/banner"
+        android:background="@drawable/shadow_top" />
+
+</RelativeLayout>

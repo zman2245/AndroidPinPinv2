@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pinpin="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/learn_background" >
+
+    <com.zman2245.pinpin.view.pagecontrol.PageControl
+        android:id="@+id/page_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        pinpin:deselected_item_drawable_src="@drawable/pagecontrol_circle_deselected"
+        pinpin:selected_item_drawable_src="@drawable/pagecontrol_circle_selected"
+        pinpin:spacing="@dimen/pagecontrol_spacing" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/page_control" />
+
+</RelativeLayout>

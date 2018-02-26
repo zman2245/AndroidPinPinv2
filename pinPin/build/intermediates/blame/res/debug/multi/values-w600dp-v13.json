@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/zack/StudioProjects/AndroidPinPin/pinPin/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/zack/.android/build-cache/116601f3cabadf229d01bc33cc91072a5ce4d45f/output/res/values-w600dp/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 55,
+                        "endOffset": 231
+                    }
+                }
+            }
+        ]
+    }
+]
